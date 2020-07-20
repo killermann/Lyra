@@ -646,7 +646,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     flex-wrap: wrap;
     margin: 0 -20px;
     padding: 50px 0 0;
-    background: #fff;
+    background: #fff1d0;
 }
 
 .post-card {
