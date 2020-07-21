@@ -2106,7 +2106,8 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
 }
 
-.post-content > p:first-of-type::first-letter {
+.post-content > p:first-of-type::first-letter, 
+.post-content hr + p:first-of-type::first-letter {
     float: left;
     font-size: 3.2em;
     margin: 0 .2em .2em 0;
