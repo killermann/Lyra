@@ -3106,7 +3106,7 @@ textarea:focus {
 .checkout-title {
     margin: 0 auto 10px;
     padding: 5vw 0 0;
-    font-size: 4rem;
+    font-size: 4.71rem;
     font-weight: 600;
     letter-spacing: -0.6px;
 }
@@ -3144,7 +3144,6 @@ textarea:focus {
 .checkout-plan-header {
     position: relative;
     padding: 0 0 50px;
-    text-align: center;
 }
 
 .checkout-plan-header:after {
@@ -3161,23 +3160,33 @@ textarea:focus {
 
 .checkout-plan-header h3 {
     margin: 0 0 25px 0;
-    color: var(--darkgrey);
-    font-size: 1.8rem;
+    font-size: 4.71rem;
     line-height: 1.15em;
     font-weight: 700;
-    letter-spacing: 1.5px;
+    letter-spacing: 0.15em;
     text-transform: uppercase;
 }
 
+.checkout-price {
+    display: flex;
+    font-size: 2.66rem;
+    justify-content: space-between;
+}
+
 .checkout-plan-header span {
-    font-size: 2.6rem;
-    font-weight: 300;
+    opacity:.6;
 }
 
 .checkout-plan-header strong {
-    color: var(--darkgrey);
-    font-size: 4.5rem;
+    font-size: 4.71rem;
     font-weight: 500;
+    font-family:sofia-pro-condensed;
+}
+
+.checkout-plan-header p {
+    margin: 1rem auto;
+    font-size: 2rem;
+    opacity: .75;
 }
 
 .checkout-plan-content {

@@ -15,13 +15,18 @@
 
         {{!-- Logged in, not paying: Check out --}}
         <div class="checkout-form">
-            <h1 class="checkout-title">Choose your subscription</h1>
-            <p>Unlock full access to {{@site.title}} and see the entire library of members-only content & updates</p>
+            <h1 class="checkout-title">Become a Supporting Member</h1>
+            <p>I post every Tuesday &amp; Thursday about social justice activism gone awry. Members fund my writing and get access to a private newsletter + other special goodies from me. <a href="https://www.samkillermann.com" target="_blank">&lt;3 sK</a></p>
             <div class="checkout-box">
                 <div class="checkout-plan">
                     <header class="checkout-plan-header">
                         <h3>Monthly</h3>
-                        <span>{{@price.currency_symbol}}</span><strong>{{@price.monthly}}</strong> / month
+                        <p>Get access to everything here and be part of making it happen (plus help me feed my puppies)</p>
+                        <div class="checkout-price">
+                            <div>
+                                <strong><span class="currency-symbol">{{@price.currency_symbol}}</span>{{@price.monthly}}</strong><span> / year</span>
+                            </div>
+                        </div>
                     </header>
                     <div class="checkout-plan-content">
                         <ul>
@@ -36,7 +41,17 @@
                 <div class="checkout-plan">
                     <header class="checkout-plan-header">
                         <h3>Yearly</h3>
-                        <span>{{@price.currency_symbol}}</span><strong>{{@price.yearly}}</strong> / year
+                        <p>One simple payment instead of 12, <em>and</em> save about 20% (plus transaction fees)</p>
+                        <div class="checkout-price">
+                            <div>
+                                <strong><span class="currency-symbol">{{@price.currency_symbol}}</span>{{@price.yearly}}</strong><span> / year</span>
+                            </div>
+                            <div class="strike">
+                                <strong><span class="currency-symbol">{{@price.currency_symbol}}</span>$60</strong>
+                            </div>
+                        </div>
+
+                        
                     </header>
                     <div class="checkout-plan-content">
                         <ul>
