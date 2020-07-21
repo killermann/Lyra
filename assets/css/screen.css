@@ -965,9 +965,9 @@ make sure this only happens on large viewports / desktop-ish devices.
     justify-content: flex-start;
     align-items: center;
     color: var(--midgrey);
-    font-size: 1.3rem;
-    line-height: 1.4em;
-    font-weight: 600;
+    font-size: 2rem;
+    letter-spacing: .15em;
+    font-family: sofia-pro-condensed;
     text-transform: uppercase;
 }
 
@@ -1003,8 +1003,8 @@ make sure this only happens on large viewports / desktop-ish devices.
 
 .post-full-custom-excerpt {
     margin: 20px 0 0;
-    color: var(--midgrey);
     font-family: Georgia, serif;
+    opacity: .75;
     font-size: 2.3rem;
     line-height: 1.4em;
     font-weight: 300;
@@ -1527,9 +1527,10 @@ h1, h2, h3, h4, h5, h6 {
 .post-full-byline-meta {
     margin: 2px 0 0;
     color: color(var(--midgrey) l(+10%));
-    font-size: 1.2rem;
+    font-size: 2rem;
+    font-family: sofia-pro-condensed;
+    letter-spacing: .15em;
     line-height: 1.2em;
-    letter-spacing: 0.2px;
     text-transform: uppercase;;
 }
 
