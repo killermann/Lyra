@@ -510,6 +510,12 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     border-radius: 100%;
 }
 
+.account-menu-avatar svg {
+    display:block;
+    width: 50%;
+    margin: 25% auto;
+}
+
 .account-menu ul {
     visibility: hidden;
     position: absolute;
@@ -560,7 +566,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     margin: 0 0 6px;
     padding: 4px 20px 12px;
     border-bottom: 1px solid var(--whitegrey);
-    color: var(--midgrey);
+    opacity: .75;
 }
 
 .account-info .account-email {
@@ -3052,7 +3058,7 @@ textarea:focus {
 }
 
 .signin-form p {
-    color: var(--midgrey);
+    opacity: .75;
     font-size: 1.3em;
 }
 
@@ -3431,7 +3437,7 @@ form[data-members-form].error .message-error {
 }
 
 .subscription-actions .gh-subscription-cancel:hover {
-    color: var(--midgrey);
+    opacity: .75;
     box-shadow: inset 0 0 0 1px var(--midgrey);
 }
 
