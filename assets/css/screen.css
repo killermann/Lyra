@@ -33,7 +33,7 @@ production stylesheet in assets/built/screen.css
 @import "global.css";
 
 body {
-    background: #fff6e26e2;
+    background: #fff6e2;
 }
 
 .img {
@@ -634,7 +634,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     flex-wrap: wrap;
     margin: 0 -20px;
     padding: 50px 0 0;
-    background: #fff6e26e2;
+    background: #fff6e2;
 }
 
 .post-card {
@@ -1042,7 +1042,7 @@ make sure this only happens on large viewports / desktop-ish devices.
     font-family: Georgia, serif;
     font-size: 2.0rem;
     line-height: 1.6em;
-    background: #fff6e26e2;
+    background: #fff6e2;
 }
 
 @media (max-width: 1170px) {
@@ -2673,7 +2673,7 @@ Usage (In Ghost editor):
     display: block;
     width: 18px;
     height: 2px;
-    background: #fff6e26e2;
+    background: #fff6e2;
     border-radius: 2px;
     transform: rotate(45deg);
 }
@@ -2686,7 +2686,7 @@ Usage (In Ghost editor):
     display: block;
     width: 18px;
     height: 2px;
-    background: #fff6e26e2;
+    background: #fff6e2;
     border-radius: 2px;
     transform: rotate(-45deg);
 }
