@@ -280,6 +280,8 @@ body {
 }
 
 .site-nav {
+    font-family: sofia-pro-condensed;
+    letter-spacing: .1em;
     position: relative;
     z-index: 100;
     display: flex;
@@ -3002,7 +3004,7 @@ textarea:focus {
 .signup-form p {
     font-size: 1.3em;
     line-height: 1.2;
-    margin-top: 1em;
+    opacity: .75;
 }
 
 .signup-form p small {
