@@ -2924,13 +2924,13 @@ textarea:focus {
 
 .button {
     display: inline-block;
-    padding: .8rem 1.8rem;
+    padding: .8rem 1.8rem 1rem;
     border: 0;
-    font-size: 1.5rem;
-    line-height: 1;
+    font-size: 1.8rem;
     font-weight: 700;
     font-family: sofia-pro-condensed;
-    letter-spacing:.12em;
+    letter-spacing:.15em;
+    text-transform: uppercase;
     text-align: center;
     text-decoration: none;
     white-space: nowrap;
@@ -2946,13 +2946,13 @@ textarea:focus {
 }
 
 .button.small {
-    padding: .6rem 1.2rem;
+    padding: .6rem 1.2rem .8rem;
     font-size: 1.4rem;
 }
 
 .button.large {
-    padding: 1.5rem 3rem;
-    font-size: 1.6rem;
+    padding: 1.5rem 3rem 1.7rem;
+    font-size: 2.2rem;
 }
 
 .button.disabled,
@@ -2970,7 +2970,7 @@ textarea:focus {
 .button:hover {
     color: color(var(--red) l(-15%));
     text-decoration: none;
-    box-shadow: inset 0 0 0 1px color(var(--blue) l(-10%));
+    box-shadow: inset 0 0 0 1px color(var(--red) l(-10%));
     transition: 0.2s ease;
 }
 
@@ -2981,7 +2981,7 @@ textarea:focus {
 }
 
 .button.primary:hover {
-    background-color: color(var(--blue) l(-10%));
+    background-color: color(var(--red) l(-10%));
 }
 
 .site-signup {
@@ -3799,11 +3799,6 @@ form[data-members-form].error .message-error {
     .account-menu .account-email,
     .account-menu ul a {
         color: rgba(255, 255, 255, 0.9);
-    }
-
-    .subscriber-avatar {
-        border-color: color(var(--darkmode) l(+5%));
-        background: color(var(--darkmode) l(+5%));
     }
 
     .subscriber-avatar img {
