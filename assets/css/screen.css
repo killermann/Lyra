@@ -1534,8 +1534,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .post-full-byline-meta {
-    margin: 2px 0 0;
     opacity: .75;
+    font-size: 1.4rem;
     line-height: 1.2em;
     text-transform: uppercase;;
 }
@@ -1628,7 +1628,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .author-card .author-info p {
     margin: 4px 0 0;
-    color: color(var(--midgrey) l(-10%));
+    opacity: .75;
 }
 
 .author-card .author-info .bio h2 {
@@ -2441,7 +2441,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .no-image .author-header-content .author-bio {
-    color: var(--midgrey);
     opacity: 1.0;
 }
 
