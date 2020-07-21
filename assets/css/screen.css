@@ -1873,6 +1873,24 @@ Usage (In Ghost editor):
     max-width: 840px;
 }
 
+.respond {
+    margin: 0 auto;
+    max-width: 840px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.respond a {
+    display: flex;
+    align-items: center;
+}
+
+.svg-icon {
+    width: auto;
+    height: 1em;
+    display: inline-block;
+}
 
 /* 7.4. Related posts
 /* ---------------------------------------------------------- */
