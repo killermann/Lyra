@@ -281,14 +281,14 @@ body {
 
 .site-nav {
     font-family: sofia-pro-condensed;
-    letter-spacing: .1em;
     position: relative;
     z-index: 100;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     height: 64px;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
+    letter-spacing:.12em;
 }
 
 .site-nav-left {
@@ -403,6 +403,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     padding: 12px 12px;
     color: #fff1d0;
     opacity: 0.8;
+    letter-spacing: .12em;
     transition: opacity 0.35s ease-in-out;
 }
 
@@ -419,7 +420,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     left: 12px;
     height: 1px;
     background: #fff1d0;
-    opacity: 0.25;
+    opacity: 0.5;
     transition: all 0.35s ease-in-out;
 }
 
