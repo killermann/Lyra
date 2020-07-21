@@ -400,7 +400,8 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 .nav li a {
     position: relative;
     display: block;
-    padding: 12px 12px;
+    padding: 0 12px;
+    line-height: 45px;
     color: #fff1d0;
     opacity: 0.8;
     letter-spacing: .12em;
@@ -1534,7 +1535,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .post-full-byline-meta {
     margin: 2px 0 0;
-    color: color(var(--midgrey) l(+10%));
+    opacity: .75;
     font-size: 2rem;
     font-family: sofia-pro-condensed;
     letter-spacing: .15em;
@@ -3625,7 +3626,7 @@ form[data-members-form].error .message-error {
     }
 
     .post-full-custom-excerpt {
-        color: color(var(--midgrey) l(+10%));
+        opacity: .75;
     }
 
     .post-full-image {
