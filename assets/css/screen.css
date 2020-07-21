@@ -33,7 +33,7 @@ production stylesheet in assets/built/screen.css
 @import "global.css";
 
 body {
-    background: #fff1d0;
+    background: #fff6e26e2;
 }
 
 .img {
@@ -118,7 +118,7 @@ body {
     position: relative;
     margin-top: 64px;
     padding-bottom: 12px;
-    color: #fff;
+    color: #fff6e2;
     background: var(--darkgrey) no-repeat center center;
     background-size: cover;
 }
@@ -217,7 +217,7 @@ body {
     padding-top: 0;
     padding-bottom: 0;
     color: var(--darkgrey);
-    background: #fff;
+    background: #fff6e2;
     opacity: 1.0;
 }
 
@@ -352,7 +352,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     display: inline-block;
     margin-right: 32px;
     padding: 12px 0;
-    color: #fff;
+    color: #fff6e2;
     font-size: 1.7rem;
     line-height: 1.8rem;
     font-weight: bold;
@@ -399,7 +399,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     position: relative;
     display: block;
     padding: 12px 12px;
-    color: #fff;
+    color: #fff6e2;
     opacity: 0.8;
     transition: opacity 0.35s ease-in-out;
 }
@@ -416,7 +416,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     bottom: 8px;
     left: 12px;
     height: 1px;
-    background: #fff;
+    background: #fff6e2;
     opacity: 0.25;
     transition: all 0.35s ease-in-out;
 }
@@ -436,7 +436,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     visibility: hidden;
     position: absolute;
     top: 9px;
-    color: #fff;
+    color: #fff6e2;
     font-size: 1.7rem;
     font-weight: 400;
     text-transform: none;
@@ -471,12 +471,12 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 }
 
 .site-nav-right a {
-    color: #fff;
+    color: #fff6e2;
 }
 
 .button.small.signout-link {
-    color: #fff;
-    box-shadow: #fff 0 0 0 1px inset;
+    color: #fff6e2;
+    box-shadow: #fff6e2 0 0 0 1px inset;
     opacity: 0.8;
 }
 
@@ -517,7 +517,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     z-index: 9998;
     padding: 8px 0;
     min-width: 240px;
-    background: #fff;
+    background: #fff6e2;
     border-radius: 3px;
     box-shadow: rgba(39,44,49,0.08) 0 12px 26px, rgba(39, 44, 49, 0.06) 1px 3px 8px;
     list-style: none;
@@ -545,7 +545,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     height: 0;
     border-width: 0 10px 10px;
     border-style: solid;
-    border-color: transparent transparent #fff;
+    border-color: transparent transparent #fff6e2;
 }
 
 .account-menu ul li {
@@ -634,7 +634,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     flex-wrap: wrap;
     margin: 0 -20px;
     padding: 50px 0 0;
-    background: #fff1d0;
+    background: #fff6e26e2;
 }
 
 .post-card {
@@ -764,7 +764,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     margin: 0 0 0 -6px;
     width: 34px;
     height: 34px;
-    border: #fff 2px solid;
+    border: #fff6e2 2px solid;
     border-radius: 100%;
 }
 
@@ -951,7 +951,7 @@ make sure this only happens on large viewports / desktop-ish devices.
 .post-template .site-main,
 .page-template .site-main {
     padding-bottom: 4vw;
-    background: #fff;
+    background: #fff6e2;
 }
 
 .post-full-header {
@@ -1042,7 +1042,7 @@ make sure this only happens on large viewports / desktop-ish devices.
     font-family: Georgia, serif;
     font-size: 2.0rem;
     line-height: 1.6em;
-    background: #fff1d0;
+    background: #fff6e26e2;
 }
 
 @media (max-width: 1170px) {
@@ -1268,7 +1268,7 @@ Usage (In Ghost editor):
     width: 1px;
     height: 30px;
     background: color(var(--lightgrey) l(+10%));
-    box-shadow: #fff 0 0 0 5px;
+    box-shadow: #fff6e2 0 0 0 5px;
     transform: rotate(45deg);
 }
 
@@ -1570,7 +1570,7 @@ Usage (In Ghost editor):
     margin: 0 -4px;
     width: 40px;
     height: 40px;
-    border: #fff 2px solid;
+    border: #fff6e2 2px solid;
     border-radius: 100%;
     transition: all 0.5s cubic-bezier(0.4, 0.01, 0.165, 0.99) 700ms;
 }
@@ -1604,7 +1604,7 @@ Usage (In Ghost editor):
     margin-left: -8px;
     width: 0;
     height: 0;
-    border-top: 8px solid #fff;
+    border-top: 8px solid #fff6e2;
     border-right: 8px solid transparent;
     border-left: 8px solid transparent;
 }
@@ -1773,7 +1773,7 @@ Usage (In Ghost editor):
     padding: 0 20px;
     height: 43px;
     outline: none;
-    color: #fff;
+    color: #fff6e2;
     font-size: 1.5rem;
     line-height: 39px;
     font-weight: 400;
@@ -1815,7 +1815,7 @@ Usage (In Ghost editor):
 
 .subscribe-form .button-loader svg path,
 .subscribe-form .button-loader svg rect {
-    fill: #fff;
+    fill: #fff6e2;
 }
 
 .subscribe-form .success .message-success,
@@ -1901,12 +1901,12 @@ Usage (In Ghost editor):
 }
 
 .read-next .post-card-primary-tag {
-    color: #fff;
+    color: #fff6e2;
     opacity: 0.6;
 }
 
 .read-next .post-card-title {
-    color: #fff;
+    color: #fff6e2;
     opacity: 0.8;
     transition: all 0.2s ease-in-out;
 }
@@ -1962,7 +1962,7 @@ Usage (In Ghost editor):
 }
 
 .read-next-card-header h3 a {
-    color: #fff;
+    color: #fff6e2;
     font-weight: 500;
     text-decoration: none;
     opacity: 0.8;
@@ -2007,7 +2007,7 @@ Usage (In Ghost editor):
 
 .read-next-card-content li a {
     display: block;
-    color: #fff;
+    color: #fff6e2;
     opacity: 0.8;
 }
 
@@ -2440,7 +2440,7 @@ Usage (In Ghost editor):
 }
 
 .author-social-link a {
-    color: #fff;
+    color: #fff6e2;
     font-weight: 600;
 }
 
@@ -2464,7 +2464,7 @@ Usage (In Ghost editor):
     content: "\2022";
     display: inline-block;
     margin: 0 12px;
-    color: #fff;
+    color: #fff6e2;
     opacity: 0.6;
 }
 
@@ -2613,7 +2613,7 @@ Usage (In Ghost editor):
     left: 0;
     z-index: 9000;
     padding: 22px 60px;
-    color: #fff;
+    color: #fff6e2;
     font-size: 1.6rem;
     line-height: 1.3em;
     font-weight: 500;
@@ -2673,7 +2673,7 @@ Usage (In Ghost editor):
     display: block;
     width: 18px;
     height: 2px;
-    background: #fff1d0;
+    background: #fff6e26e2;
     border-radius: 2px;
     transform: rotate(45deg);
 }
@@ -2686,7 +2686,7 @@ Usage (In Ghost editor):
     display: block;
     width: 18px;
     height: 2px;
-    background: #fff1d0;
+    background: #fff6e26e2;
     border-radius: 2px;
     transform: rotate(-45deg);
 }
@@ -2726,13 +2726,13 @@ Usage (In Ghost editor):
     z-index: 9999;
     margin: 0 0 5vw 0;
     padding: 4vw;
-    color: #fff;
+    color: #fff6e2;
     text-align: center;
 }
 
 .subscribe-overlay .subscribe-form {
     border: none;
-    color: #fff;
+    color: #fff6e2;
     background: none;
 }
 
@@ -2753,7 +2753,7 @@ Usage (In Ghost editor):
 .subscribe-overlay-description {
     margin: 0 auto 50px;
     max-width: 650px;
-    color: #fff;
+    color: #fff6e2;
     font-family: Georgia, serif;
     font-size: 2.4rem;
     line-height: 1.3em;
@@ -2801,7 +2801,7 @@ Usage (In Ghost editor):
     padding: 0 25px;
     height: 52px;
     outline: none;
-    color: #fff;
+    color: #fff6e2;
     font-size: 1.7rem;
     line-height: 38px;
     font-weight: 400;
@@ -2834,7 +2834,7 @@ Usage (In Ghost editor):
     position: relative;
     padding-top: 20px;
     padding-bottom: 60px;
-    color: #fff;
+    color: #fff6e2;
     background: color(var(--darkgrey) l(-5%));
 }
 
@@ -2896,7 +2896,7 @@ select {
     border: solid 1px var(--lightgrey);
     color: inherit;
     text-decoration: none;
-    background: #fff;
+    background: #fff6e2;
     border-radius: 5px;
 }
 
@@ -2967,7 +2967,7 @@ textarea:focus {
 }
 
 .button.primary {
-    color: #fff;
+    color: #fff6e2;
     background-color: var(--red);
     box-shadow: none;
 }
@@ -3112,7 +3112,7 @@ textarea:focus {
     border-top: var(--blue) 6px solid;
     color: color(var(--midgrey) l(-30%));
     text-align: left;
-    background: #fff;
+    background: #fff6e2;
     border-radius: 10px;
     box-shadow: 0 0 0 1px rgba(39,44,49,0.03), 0 0 3px rgba(39,44,49,0.05), 0 5px 22px -10px rgba(39,44,49,0.12), 0 25px 30px -25px rgba(39,44,49,0.05);
 }
@@ -3222,7 +3222,7 @@ form[data-members-form] .message-error {
     height: 15px;
 }
 .message-success svg {
-    fill: #fff;
+    fill: #fff6e2;
 }
 .message-error svg {
     fill: var(--red);
@@ -3237,7 +3237,7 @@ form[data-members-form].error .message-error {
     z-index: 9999;
     margin: 0 auto;
     padding: 10px 0;
-    color: #fff;
+    color: #fff6e2;
     font-size: 1.4rem;
     line-height: 1.5em;
     font-weight: 500;
@@ -3250,7 +3250,7 @@ form[data-members-form].success .message-success {
 }
 form[data-members-form].error .message-error {
     color: var(--red);
-    background: #fff;
+    background: #fff6e2;
     box-shadow: var(--red) 0 0 0 1px;
 }
 
@@ -3277,7 +3277,7 @@ form[data-members-form].loading .button-loader {
 
 .button-loader svg path,
 .button-loader svg rect {
-    fill: #fff;
+    fill: #fff6e2;
 }
 
 /*-- Show success message on success --*/
@@ -3433,13 +3433,13 @@ form[data-members-form].error .message-error {
 }
 
 .gh-subscription-cancel[data-members-continue-subscription] {
-    color: #fff;
+    color: #fff6e2;
     background-color: var(--red);
     box-shadow: none;
 }
 
 .gh-subscription-cancel[data-members-continue-subscription]:hover {
-    color: #fff;
+    color: #fff6e2;
     background-color: color(var(--blue) l(-10%));
     box-shadow: none;
 }
@@ -3507,7 +3507,7 @@ form[data-members-form].error .message-error {
     padding: 40px 30px;
     max-width: 840px;
     width: 90vw;
-    color: #fff;
+    color: #fff6e2;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     text-align: center;
     background: color(var(--blue) l(-5%));
@@ -3516,7 +3516,7 @@ form[data-members-form].error .message-error {
 
 .post-upgrade-cta-content h2 {
     margin: 0;
-    color: #fff;
+    color: #fff6e2;
     font-size: 2.6rem;
     font-weight: 600;
     letter-spacing: -0.5px;
@@ -3527,7 +3527,7 @@ form[data-members-form].error .message-error {
     margin: 30px 0;
     color: var(--red);
     text-decoration: none;
-    background: #fff;
+    background: #fff6e2;
     box-shadow: none;
 }
 
@@ -3537,7 +3537,7 @@ form[data-members-form].error .message-error {
 
 .post-upgrade-cta a,
 .post-upgrade-cta a:hover {
-    color: #fff;
+    color: #fff6e2;
     text-decoration: underline;
     box-shadow: none !important;
 }
@@ -3567,7 +3567,7 @@ form[data-members-form].error .message-error {
     h4,
     h5,
     h6 {
-        color: #fff;
+        color: #fff6e2;
     }
 
     img {
@@ -3596,7 +3596,7 @@ form[data-members-form].error .message-error {
     }
 
     .post-card-byline-content a:hover {
-        color: #fff;
+        color: #fff6e2;
     }
 
     .post-card-image {
@@ -3647,7 +3647,7 @@ form[data-members-form].error .message-error {
     }
 
     .post-full-byline-meta h4 a:hover {
-        color: #fff;
+        color: #fff6e2;
     }
 
     .author-list-item .author-card {
@@ -3672,20 +3672,20 @@ form[data-members-form].error .message-error {
     }
 
     .post-full-content a {
-        color: #fff;
-        box-shadow: inset 0 -1px 0 #fff;
+        color: #fff6e2;
+        box-shadow: inset 0 -1px 0 #fff6e2;
     }
 
     .post-full-content strong {
-        color: #fff;
+        color: #fff6e2;
     }
 
     .post-full-content em {
-        color: #fff;
+        color: #fff6e2;
     }
 
     .post-full-content code {
-        color: #fff;
+        color: #fff6e2;
         background: #000;
     }
 
@@ -3726,7 +3726,7 @@ form[data-members-form].error .message-error {
     }
 
     .kg-bookmark-title {
-        color: #fff;
+        color: #fff6e2;
     }
 
     .kg-bookmark-description {
