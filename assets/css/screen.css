@@ -167,7 +167,7 @@ body {
 
 .site-description {
     z-index: 10;
-    margin: 0;
+    margin: 1rem auto 0;
     padding: 5px 0;
     font-size: 2.1rem;
     line-height: 1.4em;
@@ -801,7 +801,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     display: flex;
     flex-direction: column;
     margin: 2px 0 0 6px;
-    color: color(var(--midgrey) l(+10%));
+    opacity: .75;
     font-size: 1.2rem;
     line-height: 1.4em;
     font-weight: 400;
@@ -832,7 +832,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     display: flex;
     flex-direction: column;
     margin-left: 5px;
-    color: color(var(--midgrey) l(-10%));
+    opacity: .75;
     font-size: 1.3rem;
     line-height: 1.4em;
     font-weight: 500;
@@ -3000,8 +3000,9 @@ textarea:focus {
 }
 
 .signup-form p {
-    color: var(--midgrey);
     font-size: 1.3em;
+    line-height: 1.2;
+    margin-top: 1em;
 }
 
 .signup-form p small {
