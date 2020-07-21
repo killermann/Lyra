@@ -280,7 +280,6 @@ body {
 }
 
 .site-nav {
-    font-family: sofia-pro-condensed;
     position: relative;
     z-index: 100;
     display: flex;
@@ -288,6 +287,7 @@ body {
     align-items: flex-start;
     height: 64px;
     font-size: 1.6rem;
+    font-family: sofia-pro-condensed;
     letter-spacing:.12em;
 }
 
@@ -1623,7 +1623,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .author-card .author-info h2 {
     margin: 8px 0 0;
-    font-size: 1.6rem;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    font-size: 2rem;
 }
 
 .author-card .author-info p {
@@ -2104,6 +2106,13 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
 }
 
+.post-content > p:first-of-type::first-letter {
+    float: left;
+    font-size: 3.2em;
+    margin: 0 .2em .2em 0;
+    font-family: sofia-pro-condensed;
+}
+
 .post-full-content .kg-image {
     margin: 0 auto;
     max-width: 100%;
@@ -2440,17 +2449,13 @@ h1, h2, h3, h4, h5, h6 {
     padding-left: 4px;
 }
 
-.no-image .author-header-content .author-bio {
-    opacity: .75;
-}
-
-.no-image .author-header-content .author-meta {
+.author-stats {
     opacity: .75;
 }
 
 .author-social-link a {
     color: #fff1d0;
-    font-weight: 700;
+    font-weight: 900;
 }
 
 .author-social-link a:hover {
@@ -2470,7 +2475,7 @@ h1, h2, h3, h4, h5, h6 {
     display: inline-block;
     margin: 0 12px;
     color: #fff1d0;
-    opacity: 0.6;
+    opacity: 0.5;
 }
 
 .no-image .author-location + .author-stats:before,
