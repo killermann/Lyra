@@ -668,7 +668,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 .post-card-content-link {
     position: relative;
     display: block;
-    color: var(--darkgrey);
+    color: currentColor;
 }
 
 .post-card-content-link:hover {
@@ -763,7 +763,6 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     margin: 0 0 0 -6px;
     width: 34px;
     height: 34px;
-    border: #fff1d0 2px solid;
     border-radius: 100%;
 }
 
@@ -897,7 +896,7 @@ make sure this only happens on large viewports / desktop-ish devices.
 
     .post-card-large .post-card-title {
         margin-top: 0;
-        font-size: 3.2rem;
+        font-size: 3.55rem;
     }
 
     .post-card-large .post-card-content-link {
@@ -935,11 +934,11 @@ make sure this only happens on large viewports / desktop-ish devices.
 
 @media (max-width: 500px) {
     .post-card-title {
-        font-size: 1.9rem;
+        font-size: 2.666rem;
     }
 
     .post-card-excerpt {
-        font-size: 1.6rem;
+        font-size: 2rem;
     }
 }
 
@@ -1923,10 +1922,6 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 1.0;
 }
 
-.read-next .post-card-excerpt {
-    color: rgba(255, 255, 255, 0.6);
-}
-
 .read-next .static-avatar {
     border-color: #000;
 }
@@ -1963,7 +1958,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
     color: rgba(255, 255, 255, 0.6);
     font-size: 1.2rem;
-    line-height: 1em;
+    line-height: 1;
     font-weight: 300;
     letter-spacing: 0.4px;
     text-transform: uppercase;
@@ -2009,7 +2004,7 @@ h1, h2, h3, h4, h5, h6 {
 .read-next-card-content h4 {
     margin: 0;
     font-size: 1.6rem;
-    line-height: 1.35em;
+    line-height: 1.35;
     font-weight: 600;
 }
 
@@ -3609,10 +3604,6 @@ form[data-members-form].error .message-error {
 
     .post-card-title {
         color: rgba(255, 255, 255, 0.85);
-    }
-
-    .post-card-excerpt {
-        color: color(var(--midgrey) l(+10%));
     }
 
     .site-main,
