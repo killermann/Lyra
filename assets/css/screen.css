@@ -2415,7 +2415,7 @@ h1, h2, h3, h4, h5, h6 {
 .author-header-content .author-bio {
     z-index: 10;
     flex-shrink: 0;
-    margin: 6px 0 0;
+    margin: 1.6rem auto;
     max-width: 46em;
     font-size: 2.0rem;
     line-height: 1.3em;
@@ -2441,21 +2441,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .no-image .author-header-content .author-bio {
-    opacity: 1.0;
+    opacity: .75;
 }
 
 .no-image .author-header-content .author-meta {
-    color: var(--midgrey);
-    opacity: 1.0;
+    opacity: .75;
 }
 
 .author-social-link a {
     color: #fff1d0;
-    font-weight: 600;
-}
-
-.no-image .author-social-link a {
-    color: var(--darkgrey);
+    font-weight: 700;
 }
 
 .author-social-link a:hover {
@@ -2481,7 +2476,7 @@ h1, h2, h3, h4, h5, h6 {
 .no-image .author-location + .author-stats:before,
 .no-image .author-stats + .author-social-link:before,
 .no-image .author-social-link + .author-social-link:before {
-    color: var(--midgrey);
+    opacity: .75;
 }
 
 @media (max-width: 700px) {
