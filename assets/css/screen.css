@@ -222,7 +222,7 @@ body {
 }
 
 .site-archive-header .no-image .site-description {
-    color: var(--midgrey);
+    opacity: .75;
     opacity: 1.0;
 }
 
@@ -497,7 +497,6 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     padding: 1px;
     width: 32px;
     height: 32px;
-    background: color(var(--lightgrey) l(+10%));
     border-radius: 100%;
     cursor: pointer;
 }
@@ -3101,7 +3100,7 @@ textarea:focus {
 .checkout-form p {
     margin: 0 auto 60px;
     max-width: 500px;
-    color: var(--midgrey);
+    opacity: .75;
     font-size: 1.3em;
 }
 
@@ -3131,7 +3130,6 @@ textarea:focus {
 .checkout-plan-header {
     position: relative;
     padding: 0 0 50px;
-    color: var(--midgrey);
     text-align: center;
 }
 
@@ -3327,8 +3325,6 @@ form[data-members-form].error .message-error {
     flex: 1 0 120px;
     width: 120px;
     height: 120px;
-    border: 1px solid color(var(--lightgrey) l(+10%));
-    background: color(var(--lightgrey) l(+10%));
     border-radius: 100%;
 
     object-fit: cover;
@@ -3492,7 +3488,7 @@ form[data-members-form].error .message-error {
     margin: 0 8px 1px 0;
     padding: 1px 5px;
     border: var(--lightgrey) 1px solid;
-    color: var(--midgrey);
+    opacity: .75;
     font-size: 1.2rem;
     line-height: 1.4em;
     border-radius: 4px;
@@ -3778,10 +3774,6 @@ form[data-members-form].error .message-error {
 
     .subscribe-form .success .message-success {
         color: color(var(--green) l(+5%) s(-5%));
-    }
-
-    .account-menu-avatar {
-        background: color(var(--darkmode) l(+5%));
     }
 
     .account-menu-avatar img {
