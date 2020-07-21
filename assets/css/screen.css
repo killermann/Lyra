@@ -1536,9 +1536,7 @@ h1, h2, h3, h4, h5, h6 {
 .post-full-byline-meta {
     margin: 2px 0 0;
     opacity: .75;
-    font-size: 2rem;
     font-family: sofia-pro-condensed;
-    letter-spacing: .15em;
     line-height: 1.2em;
     text-transform: uppercase;;
 }
