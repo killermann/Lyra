@@ -2109,9 +2109,9 @@ h1, h2, h3, h4, h5, h6 {
 .post-content > p:first-of-type::first-letter, 
 .post-content hr + p:first-of-type::first-letter {
     float: left;
-    font-size: 3.2em;
+    font-size: 3.6em;
     line-height: 1;
-    margin: -.2em .2em .2em 0;
+    margin: -.4em .2em 0em 0;
     font-family: sofia-pro-condensed;
 }
 
