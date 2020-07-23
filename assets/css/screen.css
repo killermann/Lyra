@@ -1573,28 +1573,20 @@ h5, .text-xs {
 }
 
 .author-card .author-profile-image {
-    flex: 0 0 60px;
+    flex: 0 0 72px;
     margin: 0 0 12px;
-    width: 60px;
-    height: 60px;
+    width: 72px;
+    height: 72px;
     border: none;
+    padding: 6px;
     background:var(--blue);
     border-radius: 100%;
 }
 
-.basic-info .avatar-wrapper {
-    position: relative;
-    margin: 0;
-    width: 60px;
-    height: 60px;
-    border: none;
-    background: rgba(229, 239, 245, 0.1);
-}
-
 .basic-info .avatar-wrapper svg {
     margin: 0;
-    width: 60px;
-    height: 60px;
+    width: 72px;
+    height: 72px;
     opacity: 0.15;
 }
 
