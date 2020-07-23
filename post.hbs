@@ -18,7 +18,7 @@ into the {body} of the default.hbs template --}}
             <header class="post-full-header">
 
                 {{#if primary_tag}}
-                <section class="post-full-tags text-sm">
+                <section class="post-full-tags text-s">
                     {{#primary_tag}}
                     <a href="{{url}}">{{name}}</a>
                     {{/primary_tag}}
@@ -46,13 +46,13 @@ into the {body} of the default.hbs template --}}
                                     <div class="author-info">
                                         {{#if bio}}
                                         <div class="bio">
-                                            <h2 class="text-md">{{name}}</h2>
-                                            <p class="text-sm">{{bio}}</p>
+                                            <h2 class="text-m">{{name}}</h2>
+                                            <p class="text-s">{{bio}}</p>
                                             <p><a href="{{url}}">More posts</a> by {{name}}.</p>
                                         </div>
                                         {{else}}
-                                        <h2 class="text-md">{{name}}</h2>
-                                        <p class="text-sm">Read <a href="{{url}}">more posts</a> by this author.</p>
+                                        <h2 class="text-m">{{name}}</h2>
+                                        <p class="text-s">Read <a href="{{url}}">more posts</a> by this author.</p>
                                         {{/if}}
                                     </div>
                                 </div>
@@ -68,7 +68,7 @@ into the {body} of the default.hbs template --}}
                         </ul>
 
                         <section class="post-full-byline-meta">
-                            <h4 class="author-name text-sm">{{authors}}</h4>
+                            <h4 class="author-name text-s">{{authors}}</h4>
                             <div class="byline-meta-content text-xs">
                                 <time class="byline-meta-date" datetime="{{date format="YYYY-MM-DD"}}">{{date format="D MMM YYYY"}}</time>
                                 <span class="byline-reading-time"><span class="bull">&bull;</span> {{reading_time}}</span>
