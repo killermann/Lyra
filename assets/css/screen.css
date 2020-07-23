@@ -33,7 +33,7 @@ production stylesheet in assets/built/screen.css
 @import "global.css";
 
 body {
-    background: #fff1d0;
+    background: var(--site-bg);
     color: #433b28;
 }
 
@@ -2745,7 +2745,7 @@ h5, .text-xs {
     padding-top: 20px;
     padding-bottom: 60px;
     color: #fff1d0;
-    background: color(var(--darkgrey) l(-5%));
+    background: var(--darkgrey);
 }
 
 .site-footer-content {
@@ -3471,9 +3471,13 @@ form[data-members-form].error .message-error {
 /* 13. Dark Mode
 /* ---------------------------------------------------------- */
 @media (prefers-color-scheme: dark) {
+
+    :root {
+        --site-bg: color(var(--darkgrey) l(+2%));
+    }
+
     body {
         color: rgba(255, 255, 255, 0.80);
-        background: var(--darkmode);
     }
 
     h1,
