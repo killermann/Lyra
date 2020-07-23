@@ -18,7 +18,7 @@ into the {body} of the default.hbs template --}}
             <header class="post-full-header">
 
                 {{#if primary_tag}}
-                <section class="post-full-tags">
+                <section class="post-full-tags text-sm">
                     {{#primary_tag}}
                     <a href="{{url}}">{{name}}</a>
                     {{/primary_tag}}
@@ -28,7 +28,7 @@ into the {body} of the default.hbs template --}}
                 <h1 class="post-full-title">{{title}}</h1>
 
                 {{#if custom_excerpt}}
-                <p class="post-full-custom-excerpt">{{custom_excerpt}}</p>
+                <p class="post-full-custom-excerpt text-m">{{custom_excerpt}}</p>
                 {{/if}}
 
                 <div class="post-full-byline">
@@ -46,13 +46,13 @@ into the {body} of the default.hbs template --}}
                                     <div class="author-info">
                                         {{#if bio}}
                                         <div class="bio">
-                                            <h2>{{name}}</h2>
-                                            <p>{{bio}}</p>
+                                            <h2 class="text-md">{{name}}</h2>
+                                            <p class="text-sm">{{bio}}</p>
                                             <p><a href="{{url}}">More posts</a> by {{name}}.</p>
                                         </div>
                                         {{else}}
-                                        <h2>{{name}}</h2>
-                                        <p>Read <a href="{{url}}">more posts</a> by this author.</p>
+                                        <h2 class="text-md">{{name}}</h2>
+                                        <p class="text-sm">Read <a href="{{url}}">more posts</a> by this author.</p>
                                         {{/if}}
                                     </div>
                                 </div>
@@ -68,8 +68,8 @@ into the {body} of the default.hbs template --}}
                         </ul>
 
                         <section class="post-full-byline-meta">
-                            <h4 class="author-name">{{authors}}</h4>
-                            <div class="byline-meta-content">
+                            <h4 class="author-name text-sm">{{authors}}</h4>
+                            <div class="byline-meta-content text-xs">
                                 <time class="byline-meta-date" datetime="{{date format="YYYY-MM-DD"}}">{{date format="D MMM YYYY"}}</time>
                                 <span class="byline-reading-time"><span class="bull">&bull;</span> {{reading_time}}</span>
                             </div>
