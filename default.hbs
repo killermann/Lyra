@@ -27,10 +27,11 @@
         {{{body}}}
 
         {{!-- The footer at the very bottom of the screen --}}
-        <svg class="ripple-wrap" style="color:var(--site-bg);" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1199.5 26">
-            <use xlink:href="#ripple-wave"/>
-        </svg>
+        
         <footer class="site-footer outer">
+            <svg class="ripple-wrap" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1199.5 26">
+                <use xlink:href="#ripple-wave"/>
+            </svg>
             <div class="site-footer-content inner">
                 <section class="copyright">
                     <a href="{{@site.url}}">{{@site.title}}</a> &copy; {{date format="YYYY"}}
