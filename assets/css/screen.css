@@ -112,7 +112,7 @@ body {
 /* ---------------------------------------------------------- */
 
 .site-header {
-    height: 64px;
+    height: 90px;
 }
 
 .site-header-background {
@@ -379,7 +379,8 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 .site-nav-logo img {
     display: block;
     width: auto;
-    height: 28px;
+    height: 5vw;
+    max-height: 28px;
 }
 
 .site-home-header .site-nav-logo {
@@ -2934,6 +2935,11 @@ textarea:focus {
     margin-left: 10px;
 }
 
+.signin-link, .header-cta{
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
 @media (max-width: 600px) {
     .signup-box {
         flex-direction: column;
@@ -2942,6 +2948,11 @@ textarea:focus {
         margin: 15px 0 0 0;
         width: 100%;
     }
+
+    .signin-link, .header-cta{
+        font-size: 1.28rem;
+    }
+    
 }
 
 .site-signin {
@@ -2952,9 +2963,6 @@ textarea:focus {
 
 }
 
-.signin-link {
-    text-transform: uppercase;
-}
 
 .signin-form {
     margin: 0 auto 10vw;
