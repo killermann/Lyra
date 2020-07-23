@@ -297,7 +297,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 0;
+    padding: calc(.5vw + 1rem) 0;
     font-size: 1.5rem;
     font-family: sofia-pro-condensed;
     letter-spacing:.12em;
@@ -478,7 +478,6 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     flex-shrink: 0;
     display: flex;
     align-items: center;
-    line-height: 1;
 }
 
 .site-nav-right a {
@@ -2948,7 +2947,7 @@ textarea:focus {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .signin-link {
