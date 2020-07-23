@@ -1499,9 +1499,8 @@ h5, .text-xs {
 .author-avatar {
     display: block;
     overflow: hidden;
-    margin: 0 -4px;
-    width: 40px;
-    height: 40px;
+    width: 48px;
+    height: 48px;
     border-radius: 100%;
     transition: all 0.5s cubic-bezier(0.4, 0.01, 0.165, 0.99) 700ms;
 }
@@ -1512,12 +1511,13 @@ h5, .text-xs {
     left: 50%;
     z-index: 600;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     margin-left: -200px;
     width: 400px;
     line-height: 1.5em;
-    background: white;
-    border-radius: 3px;
+    background: #fff;
+    border-radius: 6px;
     box-shadow: rgba(39,44,49,0.08) 0 12px 26px, rgba(39, 44, 49, 0.06) 1px 3px 8px;
     opacity: 0;
     transition: all 0.35s cubic-bezier(0.4, 0.01, 0.165, 0.99);
@@ -1534,7 +1534,7 @@ h5, .text-xs {
     margin-left: -8px;
     width: 0;
     height: 0;
-    border-top: 8px solid #fff1d0;
+    border-top: 8px solid #fff;
     border-right: 8px solid transparent;
     border-left: 8px solid transparent;
 }
@@ -1551,7 +1551,6 @@ h5, .text-xs {
 
 .author-card .author-info {
     flex: 1 1 auto;
-    padding: 0 0 0 20px;
 }
 
 .author-card .author-info h2 {
@@ -1575,10 +1574,12 @@ h5, .text-xs {
 
 .author-card .author-profile-image {
     flex: 0 0 60px;
-    margin: 0;
+    margin: 0 0 12px;
     width: 60px;
     height: 60px;
     border: none;
+    background:var(--blue);
+    border-radius: 100%;
 }
 
 .basic-info .avatar-wrapper {

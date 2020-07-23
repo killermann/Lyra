@@ -49,11 +49,11 @@ into the {body} of the default.hbs template --}}
                                         <div class="bio">
                                             <h2 class="text-m">{{name}}</h2>
                                             <p class="text-s">{{bio}}</p>
-                                            <p><a href="{{url}}">More posts</a> by {{name}}.</p>
+                                            <p class="text-xs"><strong>Read <a href="{{url}}">More posts</a> by {{name}}.</strong></p>
                                         </div>
                                         {{else}}
                                         <h2 class="text-m">{{name}}</h2>
-                                        <p class="text-s">Read <a href="{{url}}">more posts</a> by this author.</p>
+                                        <p class="text-xs"><strong>Read <a href="{{url}}">More posts</a> by {{name}}.</strong></p>
                                         {{/if}}
                                     </div>
                                 </div>
