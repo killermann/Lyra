@@ -9,11 +9,12 @@
     --yellow: #fecd35;
     --red: #d32027;
     --darkgrey: #001d27;
+    --darkbrown: #433b28;
     --midgrey: #42545a;
     --lightgrey: #b5c0c4;
     --whitegrey: #edf2f3;
     --pink: #fa3a57;
-    --brown: #a3821a;
+    --brown: #7a6021;
     --darkmode: color(var(--darkgrey) l(+2%));
 }
 
