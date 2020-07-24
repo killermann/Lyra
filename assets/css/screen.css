@@ -3133,12 +3133,11 @@ textarea:focus {
     line-height: 1.4em;
 }
 
-.checkout-plan-content li:first-letter {
+.checkout-plan-content li .icon {
     position: absolute;
-    left: 0;
+    left: -30px;
     display: block;
     font-size: 1.6rem;
-    font-weight: 600;
 }
 
 .checkout-plan-content .button {
