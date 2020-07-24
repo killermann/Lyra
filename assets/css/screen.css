@@ -33,7 +33,7 @@ production stylesheet in assets/built/screen.css
 @import "global.css";
 
 body {
-    background: var(--site-bg);
+    background: var(--lightyellow);
     color: #433b28;
 }
 
@@ -119,7 +119,7 @@ body {
     position: relative;
     margin-top: 64px;
     padding-bottom: 12px;
-    color: #fff1d0;
+    color: var(--lightyellow);
     background: var(--darkgrey) no-repeat center center;
     background-size: cover;
 }
@@ -218,7 +218,7 @@ body {
     padding-top: 0;
     padding-bottom: 0;
     color: var(--darkgrey);
-    background: #fff1d0;
+    background: var(--lightyellow);
     opacity: 1.0;
 }
 
@@ -275,7 +275,7 @@ body {
     display: block; 
     width: 100%; 
     margin-bottom: -1vw; 
-    height: 1.1vw;
+    height: 1.2vw;
 }
 
 
@@ -364,7 +364,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     display: inline-block;
     margin-right: 32px;
     padding: 10px 0;
-    color: #fff1d0;
+    color: var(--lightyellow);
     font-size: 1.7rem;
     line-height: 1.8rem;
     font-weight: bold;
@@ -413,7 +413,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     display: block;
     padding: 0 12px;
     line-height: 45px;
-    color: #fff1d0;
+    color: var(--lightyellow);
     opacity: 0.8;
     letter-spacing: .12em;
     transition: opacity 0.35s ease-in-out;
@@ -431,7 +431,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     bottom: 8px;
     left: 12px;
     height: 1px;
-    background: #fff1d0;
+    background: var(--lightyellow);
     opacity: 0.5;
     transition: all 0.35s ease-in-out;
 }
@@ -451,7 +451,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     visibility: hidden;
     position: absolute;
     top: 9px;
-    color: #fff1d0;
+    color: var(--lightyellow);
     font-size: 1.7rem;
     font-weight: 400;
     text-transform: none;
@@ -482,11 +482,11 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 }
 
 .site-nav-right a {
-    color: #fff1d0;
+    color: var(--lightyellow);
 }
 
 .button.small.signout-link {
-    color: #fff1d0;
+    color: var(--lightyellow);
     opacity: 0.8;
 }
 
@@ -656,7 +656,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     flex-wrap: wrap;
     margin: 0 -20px;
     padding: 50px 0 0;
-    background: #fff1d0;
+    background: var(--lightyellow);
 }
 
 .post-card {
@@ -988,7 +988,7 @@ progress.reading-progress-bar[value]::-webkit-progress-value {
 .post-template .site-main,
 .page-template .site-main {
     padding-bottom: 4vw;
-    background: #fff1d0;
+    background: var(--lightyellow);
 }
 
 .post-full-header {
@@ -1077,7 +1077,7 @@ progress.reading-progress-bar[value]::-webkit-progress-value {
     min-height: 230px;
     font-family: Georgia, serif;
     font-size: 2.1rem;
-    background: #fff1d0;
+    background: var(--lightyellow);
 }
 
 @media (max-width: 1170px) {
@@ -1285,7 +1285,7 @@ Usage (In Ghost editor):
     width: 1px;
     height: 30px;
     background: color(var(--lightgrey) l(+10%));
-    box-shadow: #fff1d0 0 0 0 5px;
+    box-shadow: var(--lightyellow) 0 0 0 5px;
     transform: rotate(45deg);
 }
 
@@ -1686,7 +1686,7 @@ h5, .text-xs {
     padding: 0 20px;
     height: 43px;
     outline: none;
-    color: #fff1d0;
+    color: var(--lightyellow);
     line-height: 39px;
     font-weight: 400;
     text-align: center;
@@ -1727,7 +1727,7 @@ h5, .text-xs {
 
 .subscribe-form .button-loader svg path,
 .subscribe-form .button-loader svg rect {
-    fill: #fff1d0;
+    fill: var(--lightyellow);
 }
 
 .subscribe-form .success .message-success,
@@ -1799,8 +1799,7 @@ h5, .text-xs {
 /* ---------------------------------------------------------- */
 
 .read-next {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    background: color(var(--darkgrey) l(-5%));
+    background: color(var(--darkgrey) l(3%));
 }
 
 .read-next-feed {
@@ -1820,12 +1819,12 @@ h5, .text-xs {
 }
 
 .read-next .post-card-primary-tag {
-    color: #fff1d0;
+    color: var(--lightyellow);
     opacity: 0.6;
 }
 
 .read-next .post-card-title {
-    color: #fff1d0;
+    color: var(--lightyellow);
     opacity: 0.8;
     transition: all 0.2s ease-in-out;
 }
@@ -1877,7 +1876,7 @@ h5, .text-xs {
 }
 
 .read-next-card-header h3 a {
-    color: #fff1d0;
+    color: var(--lightyellow);
     font-weight: 500;
     text-decoration: none;
     opacity: 0.8;
@@ -1922,7 +1921,7 @@ h5, .text-xs {
 
 .read-next-card-content li a {
     display: block;
-    color: #fff1d0;
+    color: var(--lightyellow);
     opacity: 0.8;
 }
 
@@ -2358,7 +2357,7 @@ h5, .text-xs {
 }
 
 .author-social-link a {
-    color: #fff1d0;
+    color: var(--lightyellow);
     font-weight: 900;
 }
 
@@ -2378,7 +2377,7 @@ h5, .text-xs {
     content: "\2022";
     display: inline-block;
     margin: 0 12px;
-    color: #fff1d0;
+    color: var(--lightyellow);
     opacity: 0.5;
 }
 
@@ -2527,7 +2526,7 @@ h5, .text-xs {
     left: 0;
     z-index: 9000;
     padding: 22px 60px;
-    color: #fff1d0;
+    color: var(--lightyellow);
     font-size: 1.6rem;
     line-height: 1.3em;
     font-weight: 500;
@@ -2587,7 +2586,7 @@ h5, .text-xs {
     display: block;
     width: 18px;
     height: 2px;
-    background: #fff1d0;
+    background: var(--lightyellow);
     border-radius: 2px;
     transform: rotate(45deg);
 }
@@ -2600,7 +2599,7 @@ h5, .text-xs {
     display: block;
     width: 18px;
     height: 2px;
-    background: #fff1d0;
+    background: var(--lightyellow);
     border-radius: 2px;
     transform: rotate(-45deg);
 }
@@ -2640,13 +2639,13 @@ h5, .text-xs {
     z-index: 9999;
     margin: 0 0 5vw 0;
     padding: 4vw;
-    color: #fff1d0;
+    color: var(--lightyellow);
     text-align: center;
 }
 
 .subscribe-overlay .subscribe-form {
     border: none;
-    color: #fff1d0;
+    color: var(--lightyellow);
     background: none;
 }
 
@@ -2667,7 +2666,7 @@ h5, .text-xs {
 .subscribe-overlay-description {
     margin: 0 auto 50px;
     max-width: 650px;
-    color: #fff1d0;
+    color: var(--lightyellow);
     font-family: Georgia, serif;
     font-size: 2.4rem;
     line-height: 1.3em;
@@ -2715,7 +2714,7 @@ h5, .text-xs {
     padding: 0 25px;
     height: 52px;
     outline: none;
-    color: #fff1d0;
+    color: var(--lightyellow);
     font-size: 1.7rem;
     line-height: 38px;
     font-weight: 400;
@@ -2748,12 +2747,12 @@ h5, .text-xs {
     position: relative;
     padding-top: calc(20px + 1.5vw);
     padding-bottom: 60px;
-    color: #fff1d0;
+    color: var(--lightyellow);
     background: var(--darkgrey);
 }
 
 .site-footer .ripple-wrap {
-    color: var(--site-bg);
+    color: var(--lightyellow);
     top:-.05vw; 
     bottom: auto; 
     margin: 0;
@@ -2885,7 +2884,7 @@ textarea:focus {
 }
 
 .button.primary {
-    color: #fff1d0;
+    color: var(--lightyellow);
     background-color: var(--red);
     box-shadow: none;
 }
@@ -3043,7 +3042,7 @@ textarea:focus {
     border-top: var(--blue) 6px solid;
     color: color(var(--midgrey) l(-30%));
     text-align: left;
-    background: #fff1d0;
+    background: var(--lightyellow);
     border-radius: 10px;
     box-shadow: 0 0 0 1px rgba(39,44,49,0.03), 0 0 3px rgba(39,44,49,0.05), 0 5px 22px -10px rgba(39,44,49,0.12), 0 25px 30px -25px rgba(39,44,49,0.05);
 }
@@ -3162,7 +3161,7 @@ form[data-members-form] .message-error {
     height: 15px;
 }
 .message-success svg {
-    fill: #fff1d0;
+    fill: var(--lightyellow);
 }
 .message-error svg {
     fill: var(--red);
@@ -3177,7 +3176,7 @@ form[data-members-form].error .message-error {
     z-index: 9999;
     margin: 0 auto;
     padding: 10px 0;
-    color: #fff1d0;
+    color: var(--lightyellow);
     font-size: 1.4rem;
     line-height: 1.5em;
     font-weight: 500;
@@ -3190,7 +3189,7 @@ form[data-members-form].success .message-success {
 }
 form[data-members-form].error .message-error {
     color: var(--red);
-    background: #fff1d0;
+    background: var(--lightyellow);
     box-shadow: var(--red) 0 0 0 1px;
 }
 
@@ -3217,7 +3216,7 @@ form[data-members-form].loading .button-loader {
 
 .button-loader svg path,
 .button-loader svg rect {
-    fill: #fff1d0;
+    fill: var(--lightyellow);
 }
 
 /*-- Show success message on success --*/
@@ -3371,13 +3370,13 @@ form[data-members-form].error .message-error {
 }
 
 .gh-subscription-cancel[data-members-continue-subscription] {
-    color: #fff1d0;
+    color: var(--lightyellow);
     background-color: var(--red);
     box-shadow: none;
 }
 
 .gh-subscription-cancel[data-members-continue-subscription]:hover {
-    color: #fff1d0;
+    color: var(--lightyellow);
     background-color: color(var(--blue) l(-10%));
     box-shadow: none;
 }
@@ -3445,7 +3444,7 @@ form[data-members-form].error .message-error {
     padding: 40px 30px;
     max-width: 840px;
     width: 90vw;
-    color: #fff1d0;
+    color: var(--lightyellow);
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     text-align: center;
     background: color(var(--blue) l(-5%));
@@ -3454,7 +3453,7 @@ form[data-members-form].error .message-error {
 
 .post-upgrade-cta-content h2 {
     margin: 0;
-    color: #fff1d0;
+    color: var(--lightyellow);
     font-size: 2.6rem;
     font-weight: 600;
     letter-spacing: -0.5px;
@@ -3465,7 +3464,7 @@ form[data-members-form].error .message-error {
     margin: 30px 0;
     color: var(--red);
     text-decoration: none;
-    background: #fff1d0;
+    background: var(--lightyellow);
     box-shadow: none;
 }
 
@@ -3475,7 +3474,7 @@ form[data-members-form].error .message-error {
 
 .post-upgrade-cta a,
 .post-upgrade-cta a:hover {
-    color: #fff1d0;
+    color: var(--lightyellow);
     text-decoration: underline;
     box-shadow: none !important;
 }
@@ -3495,11 +3494,8 @@ form[data-members-form].error .message-error {
 /* ---------------------------------------------------------- */
 @media (prefers-color-scheme: dark) {
 
-    :root {
-        --site-bg: color(var(--darkgrey) l(+2%));
-    }
-
     body {
+        background: color(var(--darkgrey) l(+2%));
         color: rgba(255, 255, 255, 0.80);
     }
 
@@ -3509,7 +3505,7 @@ form[data-members-form].error .message-error {
     h4,
     h5,
     h6 {
-        color: #fff1d0;
+        color: var(--lightyellow);
     }
 
     img {
@@ -3534,7 +3530,7 @@ form[data-members-form].error .message-error {
     }
 
     .post-card-byline-content a:hover {
-        color: #fff1d0;
+        color: var(--lightyellow);
     }
 
     .post-card-image {
@@ -3576,7 +3572,7 @@ form[data-members-form].error .message-error {
     }
 
     .post-full-byline-meta h4 a:hover {
-        color: #fff1d0;
+        color: var(--lightyellow);
     }
 
     .author-list-item .author-card {
@@ -3601,20 +3597,20 @@ form[data-members-form].error .message-error {
     }
 
     .post-full-content a {
-        color: #fff1d0;
-        box-shadow: inset 0 -1px 0 #fff1d0;
+        color: var(--lightyellow);
+        box-shadow: inset 0 -1px 0 var(--lightyellow);
     }
 
     .post-full-content strong {
-        color: #fff1d0;
+        color: var(--lightyellow);
     }
 
     .post-full-content em {
-        color: #fff1d0;
+        color: var(--lightyellow);
     }
 
     .post-full-content code {
-        color: #fff1d0;
+        color: var(--lightyellow);
         background: #000;
     }
 
@@ -3655,7 +3651,7 @@ form[data-members-form].error .message-error {
     }
 
     .kg-bookmark-title {
-        color: #fff1d0;
+        color: var(--lightyellow);
     }
 
     .kg-bookmark-description {
@@ -3751,7 +3747,9 @@ form[data-members-form].error .message-error {
     input[type="tel"],
     input[type="search"],
     input[type="url"],
+    .site-footer .ripple-wrap,
     select {
         color: var(--darkgrey);
     }
+    
 }
