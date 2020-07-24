@@ -208,12 +208,12 @@ into the {body} of the default.hbs template --}}
 {{#if @member.paid}}
 
 {{!-- Logged in, not paying: Link to checkout --}}
-<div id="subscribe" class="supporting-member-thanks">
-    <div class="subscriber-avatar">
+<div id="subscribe" class="signup-form supporting-member-thanks">
+    {{!-- <div class="subscriber-avatar">
         {{#if @member.avatar_image}}
             <img src="{{@member.avatar_image}}" />
         {{/if}}
-    </div>
+    </div> --}}
     <h2 class="text-l signup-title">Thank you for being a supporting member{{# if @member.firstname  }}, {{ @member.firstname  }}{{/if}}!</h2>
     <p>You're making my work here possible. I appreciate you dearly for that.</p>
 </div>
@@ -222,11 +222,11 @@ into the {body} of the default.hbs template --}}
 
 {{!-- Logged in, not paying: Link to checkout --}}
 <div id="subscribe" class="signup-form supporting-member-signup">
-    <div class="subscriber-avatar">
+    {{!-- <div class="subscriber-avatar">
         {{#if @member.avatar_image}}
             <img src="{{@member.avatar_image}}" />
         {{/if}}
-    </div>
+    </div> --}}
     <h2 class="text-l signup-title">I'm happy to have you as a member{{# if @member.firstname  }}, {{ @member.firstname  }}{{/if}}!</h2>
     <p>If you want to support my work here, supporting members (monthly or yearly subscriptions) receive extra perks, including a paperback copy of my book.</p>
     <div class="authbox-signup">
