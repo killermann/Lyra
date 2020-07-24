@@ -16,8 +16,34 @@
         {{!-- Logged in, not paying: Check out --}}
         <div class="checkout-form">
             <h1 class="checkout-title">Become a Supporting Member</h1>
-            <p>You're officially a member. Woohoo!. You'll start getting new posts in your inbox, and you already have access to the member's only content. <strong>If you want to help fund my writing here, there are a few extra perks on offer, as well as a heartfelt thank you from me.</strong> <a href="https://www.samkillermann.com" target="_blank">&lt;3 sK</a></p>
+            <p>You're officially a member. Woohoo! You'll get new posts in your inbox, and you already have access to the member's only content.</p>
+            <p><strong>If you want to help fund my writing here, there are a few extra perks on offer (including a free paperback copy of the Problematic Activism book, once it's released!), as well as a heartfelt thank you from me.</strong> <a style="display:inline-block" href="https://www.samkillermann.com" target="_blank">&lt;3 sK</a></p>
             <div class="checkout-box">
+                <div class="checkout-plan">
+                    <a class="checkout-plan-link" href="javascript:" data-members-plan="Yearly">
+                    <header class="checkout-plan-header">
+                        <h3>Yearly</h3>
+                        <p>Committing to supporting my work here for a year means more to me than you could know, <em>and</em> you save about 20%.</p>
+                        <div class="checkout-price">
+                            <div>
+                                <strong><span class="currency-symbol">{{@price.currency_symbol}}</span>{{@price.yearly}}</strong><span> / year</span>
+                            </div>
+                            <div class="strike">
+                                <strong><del><span class="currency-symbol">{{@price.currency_symbol}}60</span></del></strong>
+                            </div>
+                        </div>                        
+                    </header>
+                    <div class="checkout-plan-content">
+                        <ul>
+                            <li>🔓 Full access to all private posts</li>
+                            <li>💳 Simple, secure card payment</li>
+                            <li>🐻 Pictures of my puppies (you're helping feed)</li>
+                            <li>📕 Free paperback copy of the book (when it's out)</li>
+                        </ul>
+                        <a class="button primary fit" href="javascript:" data-members-plan="Yearly">Choose this plan</a>
+                    </div>
+                    <a class="checkout-plan-link" href="javascript:" data-members-plan="Yearly"></a>
+                </div>
                 <div class="checkout-plan">
                     <header class="checkout-plan-header">
                         <h3>Monthly</h3>
@@ -30,38 +56,12 @@
                     </header>
                     <div class="checkout-plan-content">
                         <ul>
-                            <li>Full access to all private posts</li>
-                            <li>Regular updates with new content</li>
-                            <li>Support independent publishing</li>
-                            <li>Simple, secure card payment</li>
+                            <li>🔓 Full access to all private posts</li>
+                            <li>💳 Simple, secure card payment</li>
+                            <li>🐻 Pictures of my puppies (you're helping feed)</li>
+                            <li>📕 Paperback copy of the book (just pay for shipping)</li>
                         </ul>
                         <a class="button primary fit" href="javascript:" data-members-plan="Monthly">Choose this plan</a>
-                    </div>
-                </div>
-                <div class="checkout-plan">
-                    <header class="checkout-plan-header">
-                        <h3>Yearly</h3>
-                        <p>One simple payment instead of 12, <em>and</em> save about 20% (plus transaction fees)</p>
-                        <div class="checkout-price">
-                            <div>
-                                <strong><span class="currency-symbol">{{@price.currency_symbol}}</span>{{@price.yearly}}</strong><span> / year</span>
-                            </div>
-                            <div class="strike">
-                                <strong><span class="currency-symbol">{{@price.currency_symbol}}60</span></strong>
-                            </div>
-                        </div>
-
-                        
-                    </header>
-                    <div class="checkout-plan-content">
-                        <ul>
-                            <li>Full access to all private posts</li>
-                            <li>Regular updates with new content</li>
-                            <li>Support independent publishing</li>
-                            <li>Simple, secure card payment</li>
-                            <li>One easy payment instead of 12!</li>
-                        </ul>
-                        <a class="button primary fit" href="javascript:" data-members-plan="Yearly">Choose this plan</a>
                     </div>
                 </div>
             </div>
