@@ -3038,7 +3038,7 @@ textarea:focus {
 .checkout-box {
     display: flex;
     justify-content: center;
-    align-items: stretch;
+    align-items: flex-start;
 }
 
 .checkout-plan {
@@ -3054,28 +3054,32 @@ textarea:focus {
     color: var(--darkgrey);
     text-align: left;
     background: #fff;
-    border-radius: 15px;
+    border-radius: 20px;
     transition: all .1s ease-out;
     box-shadow: 0 0 0 1px rgba(39,44,49,0.03), 0 0 3px rgba(39,44,49,0.05), 0 5px 22px -10px rgba(39,44,49,0.12), 0 25px 30px -25px rgba(39,44,49,0.05);
 }
 
 #free-membership {
     position: relative;
-    padding: 1rem;
-    border: .4rem solid rgba(46, 41, 34, 0.4);
+    border: .12rem solid rgba(61, 56, 41, 0.4);
     border-radius: 20px;
 }
 
 #free-membership .current-plan-wrap {
+    margin: 1rem;
     filter:grayscale(100%);
+    background:  rgba(61, 56, 41, 0.12);
+    box-shadow: none;
 }
 
 .current-plan {
     position: absolute;
-    bottom: calc(100% + 1rem);
+    bottom: calc(100% + 1.2rem);
     left: 50%;
+    font-weight: bold;
     margin-top: -50%;
-    margin-left: -50%;
+    line-height: 1;
+    margin-bottom: -50%;
     display: inline-block;
     background: var(--lightyellow);
     padding: .2rem .4rem;
