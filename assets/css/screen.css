@@ -3042,11 +3042,13 @@ textarea:focus {
 }
 
 .checkout-plan {
-    flex: 1 1 50%;
+    flex: 1 0 0;
 }
 
 .checkout-plan-link, .current-plan-wrap {
-    padding: 30px;
+    padding: 7%;
+    font-size: 14px;
+    position: relative;
     display: flex;
     flex-direction: column;
     color: var(--darkgrey);
@@ -3070,7 +3072,7 @@ textarea:focus {
 
 .current-plan {
     position: absolute;
-    top: 0;
+    bottom: calc(100% + 1rem);
     left: 50%;
     margin-top: -50%;
     margin-left: -50%;
@@ -3175,7 +3177,7 @@ textarea:focus {
     margin: 20px 0 0 0;
 }
 
-@media (max-width: 740px) {
+@media (max-width: 800px) {
     .checkout-title {
         margin-top: 50px;
     }
