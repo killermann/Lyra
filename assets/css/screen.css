@@ -1805,7 +1805,8 @@ h5, .text-xs {
 /* ---------------------------------------------------------- */
 
 .read-next {
-    background: color(var(--darkgrey) l(3%));
+    background: var(--darkgrey);
+    color: var(--lightyellow);
 }
 
 .read-next-feed {
@@ -1839,16 +1840,8 @@ h5, .text-xs {
     opacity: 1.0;
 }
 
-.read-next .static-avatar {
-    border-color: #000;
-}
-
-.read-next .post-card-byline-content {
-    color: rgba(255, 255, 255, 0.6);
-}
-
 .read-next .post-card-byline-content a {
-    color: rgba(255, 255, 255, 0.8);
+    color: var(--lightyellow);
 }
 
 .read-next-card {
@@ -1859,8 +1852,8 @@ h5, .text-xs {
     overflow: hidden;
     margin: 0 25px 50px;
     padding: 25px;
-    background: linear-gradient(color(var(--darkgrey) l(+2%)), color(var(--darkgrey) l(-5%)));
-    border-radius: 3px;
+    background: linear-gradient(color(var(--darkgrey) l(+3%)), color(var(--darkgrey) l(-3%)));
+    border-radius: 6px;
 }
 
 .read-next-card a {
@@ -1873,7 +1866,7 @@ h5, .text-xs {
 
 .read-next-card-header h3 {
     margin: 0;
-    color: rgba(255, 255, 255, 0.6);
+    color:  var(--lightyellow);
     font-size: 1.28rem;
     line-height: 1;
     font-weight: 300;
@@ -1910,7 +1903,7 @@ h5, .text-xs {
     align-items: flex-start;
     margin: 0;
     padding: 20px 0;
-    border-bottom: rgba(255, 255, 255, 0.1);
+    border-bottom: rgba(255, 252, 244, 0.1);
 }
 
 .read-next-card-content li:last-of-type {
@@ -1952,7 +1945,6 @@ h5, .text-xs {
 
 .read-next-card-meta p {
     margin: 0;
-    color: rgba(255, 255, 255, 0.6);
 }
 
 .read-next-card-footer {
@@ -2917,10 +2909,11 @@ textarea:focus {
 
 #subscribe {
     margin: calc(4rem + 4vw) auto;
+    padding: 0 25px;
 }
 
 .signup-title {
-    margin: 0 0 0.1em;
+    margin: 0 0 0.5em;
     font-size: 4.2rem;
 }
 
@@ -3431,9 +3424,10 @@ form[data-members-form].error .message-error {
 
 .post-visibility {
     display: inline-block;
+    opacity: .6;
     margin: 0 8px 1px 0;
     padding: 1px 5px;
-    border: var(--lightgrey) 1px solid;
+    border: currentColor 1px solid;
     opacity: .75;
     font-size: 1.2rem;
     line-height: 1.4em;

@@ -152,7 +152,10 @@ into the {body} of the default.hbs template --}}
 </main>
 
 {{!-- Links to Previous/Next posts --}}
-<aside class="read-next outer">
+<svg class="ripple-wrap" preserveAspectRatio="none" style="color:#fff1d0;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1199.5 26">
+    <use xlink:href="#ripple-wave"/>
+</svg>
+<aside class="read-next outer" style="position: relative">
     <div class="inner">
         <div class="read-next-feed">
             {{#if primary_tag}}
@@ -197,10 +200,13 @@ into the {body} of the default.hbs template --}}
             {{/prev_post}}
         </div>
     </div>
+    <svg class="ripple-wrap" preserveAspectRatio="none" style="color:#fff1d0;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1199.5 26">
+        <use xlink:href="#ripple-wave"/>
+    </svg>
 </aside>
 
 <form id="subscribe" class="signup-form" data-members-form="signup">
-            <h1 class="signup-title">Get {{@site.title}} via Email</h1>
+            <h2 class="text-l signup-title">Get {{@site.title}} delivered to your inbox.</h2>
             <p>Become a (free!) member, unlock member's only content, and get new posts delivered directly to your inbox.</p>
             <div class="signup-box">
                 <input data-members-email type="email" placeholder="Type your email..." required="true" autocomplete="false" />
