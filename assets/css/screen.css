@@ -334,7 +334,7 @@ body {
 }
 
 @media (max-width: 700px) {
-    .site-header-background:not(.responsive-header-img) .site-nav-left:after,
+    /* .site-header-background:not(.responsive-header-img) .site-nav-left:after,
     .site-nav-main .site-nav-left:after {
         content: "";
         position: absolute;
@@ -352,7 +352,7 @@ body {
 
     .nav li:last-of-type {
         padding-right: 20px;
-    }
+    } */
 }
 
 /* Site Nav Hack Explanation (above):
