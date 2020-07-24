@@ -3045,6 +3045,10 @@ textarea:focus {
     flex: 1 0 0;
 }
 
+.checkout-plan del {
+    filter:grayscale(100%);
+}
+
 .checkout-plan-link, .current-plan-wrap {
     padding: 7%;
     font-size: 14px;
@@ -3059,15 +3063,8 @@ textarea:focus {
     box-shadow: 0 0 0 1px rgba(39,44,49,0.03), 0 0 3px rgba(39,44,49,0.05), 0 5px 22px -10px rgba(39,44,49,0.12), 0 25px 30px -25px rgba(39,44,49,0.05);
 }
 
-#free-membership {
-    position: relative;
-    border: .2rem solid rgba(61, 56, 41, 0.4);
-    border-radius: 20px;
-}
-
 #free-membership .current-plan-wrap {
-    margin: 1rem;
-    filter:grayscale(100%);
+    border: .25rem solid rgba(61, 56, 41, 0.4);
     background:  rgba(61, 56, 41, 0.12);
     box-shadow: none;
 }
@@ -3113,7 +3110,7 @@ textarea:focus {
     display: block;
     height: 2px;
     background: rgba(39,44,49,0.08);
-    border-radius: 2px;
+    border-radius: 4px;
 }
 
 .checkout-plan-header h3 {
