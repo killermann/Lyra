@@ -3048,7 +3048,7 @@ textarea:focus {
     display: flex;
     flex-direction: column;
     border: 6px solid #fff;
-    border-top-color: var(--blue)
+    border-top-color: var(--blue);
     color: color(var(--midgrey) l(-30%));
     text-align: left;
     background: #fff;
