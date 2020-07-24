@@ -587,6 +587,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     padding: 4px 20px 12px;
     border-bottom: 1px solid var(--whitegrey);
     opacity: .75;
+    color: var(--darkgrey);
 }
 
 .account-info .account-email {
@@ -594,7 +595,6 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     overflow-x: hidden;
     margin-top: -4px;
     max-width: 200px;
-    color: color(var(--midgrey) l(-30%));
     font-weight: 600;
     text-overflow: ellipsis;
 }
@@ -602,7 +602,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 .account-menu ul a {
     display: block;
     padding: 6px 20px;
-    color: color(var(--midgrey) l(-30%));
+    color: var(--darkgrey);
 }
 
 .account-menu ul a:hover {
