@@ -3048,6 +3048,7 @@ textarea:focus {
     display: flex;
     flex-direction: column;
     border-top: .2em solid var(--red);
+    color: var(--darkgrey);
     text-align: left;
     background: #fff;
     border-radius: 10px;
@@ -3135,7 +3136,7 @@ textarea:focus {
 
 .checkout-plan-content li .icon {
     position: absolute;
-    left: -30px;
+    left: -5px;
     display: block;
     font-size: 1.6rem;
 }
