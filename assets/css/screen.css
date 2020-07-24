@@ -3109,6 +3109,8 @@ textarea:focus {
 }
 
 .checkout-plan-header p {
+    font-size: 1.5rem;
+    line-height: 1.2;
     margin: 1rem auto;
     opacity: .75;
 }
