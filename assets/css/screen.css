@@ -368,8 +368,8 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     z-index: 100;
     flex-shrink: 0;
     display: inline-block;
-    margin-right: 32px;
-    padding: 10px 0;
+    margin-right: 2rem;
+    padding: 1rem 0;
     color: var(--lightyellow);
     font-size: 1.7rem;
     line-height: 1.8rem;
