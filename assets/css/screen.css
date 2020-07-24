@@ -1783,7 +1783,8 @@ h5, .text-xs {
 }
 
 .respond {
-    margin: 0 auto;
+    margin: 2rem auto 4rem;
+    max-width: 720px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -2010,8 +2011,8 @@ h5, .text-xs {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 728px;
-    margin: 3rem auto;
+    max-width: 720px;
+    margin: 4rem auto 0;
 }
 
 .post-content > p:first-of-type::first-letter, 
