@@ -205,20 +205,55 @@ into the {body} of the default.hbs template --}}
         <use xlink:href="#ripple-wave"/>
     </svg>
 </aside>
+{{#if @member.paid}}
 
+{{!-- Logged in, not paying: Link to checkout --}}
+<div id="subscribe" class="supporting-member-thanks">
+    <div class="subscriber-avatar">
+        {{#if @member.avatar_image}}
+            <img src="{{@member.avatar_image}}" />
+        {{/if}}
+    </div>
+    <h1 class="account-box-title">Thank you for being a supporting member!</h1>
+    <p>You're making my work here possible. I appreciate you dearly for that.</p>
+</div>
+
+{{else if @member}}
+
+{{!-- Logged in, not paying: Link to checkout --}}
+<div id="subscribe" class="supporting-member-signup">
+    <div class="subscriber-avatar">
+        {{#if @member.avatar_image}}
+            <img src="{{@member.avatar_image}}" />
+        {{/if}}
+    </div>
+    <h1 class="account-box-title">Thank you for being a member!</h1>
+    <p>If you want to support my work here, supporting members (monthly or yearly subscriptions) receive extra perks, including a paperback copy of my book.</p>
+    <div class="authbox-signup">
+        <a class="button primary" href="{{@site.url}}/signup/">
+            <span class="button-content">Join now &rarr;</span>
+        </a>
+    </div>
+</div>
+
+{{else}}
 <form id="subscribe" class="signup-form" data-members-form="signup">
-            <h2 class="text-l signup-title">Get {{@site.title}} delivered to your inbox.</h2>
-            <p>Become a (free!) member, unlock member's only content, and get new posts delivered directly to your inbox.</p>
-            <div class="signup-box">
-                <input data-members-email type="email" placeholder="Type your email..." required="true" autocomplete="false" />
-                <button class="button primary" type="submit">
-                    <span class="button-content">Continue</span>
-                    <span class="button-loader">{{> "icons/loader"}}</span>
-                </button>
-            </div>
-            <div class="message-success"><strong>Great!</strong> Check your inbox and click the link to confirm your subscription.</div>
-            <div class="message-error">Please enter a valid email address!</div>
-        </form>
+    <h2 class="text-l signup-title">Get {{@site.title}} delivered to your inbox.</h2>
+    <p>Become a (free!) member, unlock member's only content, and get new posts delivered directly to your inbox.</p>
+    <div class="signup-box">
+        <input data-members-email type="email" placeholder="Type your email..." required="true" autocomplete="false" />
+        <button class="button primary" type="submit">
+            <span class="button-content">Continue</span>
+            <span class="button-loader">{{> "icons/loader"}}</span>
+        </button>
+    </div>
+    <div class="message-success"><strong>Great!</strong> Check your inbox and click the link to confirm your subscription.</div>
+    <div class="message-error">Please enter a valid email address!</div>
+</form>
+
+{{/if}}
+
+
 
 {{!-- Floating header which appears on-scroll, included from includes/floating-header.hbs --}}
 {{!-- {{> floating-header}} --}}

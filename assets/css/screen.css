@@ -3039,7 +3039,7 @@ textarea:focus {
 }
 
 .checkout-plan {
-    flex: 1 1 auto;
+    flex: 1 1 50%;
 }
 
 .checkout-plan-link {
@@ -3055,7 +3055,7 @@ textarea:focus {
     box-shadow: 0 0 0 1px rgba(39,44,49,0.03), 0 0 3px rgba(39,44,49,0.05), 0 5px 22px -10px rgba(39,44,49,0.12), 0 25px 30px -25px rgba(39,44,49,0.05);
 }
 
-.checkout-plan-link:hover {
+.checkout-plan-link:hover, .checkout-plan-link:focus {
     background: var(--red);
     color: #fff !important;
     text-decoration: none !important;
