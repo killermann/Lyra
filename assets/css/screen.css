@@ -541,7 +541,6 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     padding: 8px 0;
     min-width: 240px;
     background: #fff;
-    color: var(--darkgrey);
     border-radius: 5px;
     box-shadow: rgba(39,44,49,0.08) 0 12px 26px, rgba(39, 44, 49, 0.06) 1px 3px 8px;
     list-style: none;
