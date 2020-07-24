@@ -3028,8 +3028,8 @@ textarea:focus {
 
 .checkout-form p {
     margin: 0 auto 2rem;
-    line-height: 1.2;
     opacity: .75;
+    font-size: 1.3em;
 }
 
 .checkout-box {
@@ -3085,7 +3085,6 @@ textarea:focus {
 
 .checkout-plan-header h3 {
     margin: 0 0 25px 0;
-    color: var(--darkgrey);
     font-size: 4.71rem;
     line-height: 1.12em;
     font-weight: 700;
@@ -3111,7 +3110,6 @@ textarea:focus {
 
 .checkout-plan-header p {
     margin: 1rem auto;
-    font-size: 2rem;
     opacity: .75;
 }
 
