@@ -3017,6 +3017,10 @@ textarea:focus {
     width: 100%;
 }
 
+.checkout-title, .checkout-description {
+    max-width: 640px;
+}
+
 .checkout-title {
     margin: 0 auto 2rem;
     text-align: center;
@@ -3042,17 +3046,39 @@ textarea:focus {
     flex: 1 1 50%;
 }
 
-.checkout-plan-link {
+.checkout-plan-link, .current-plan-wrap {
     padding: 30px;
     display: flex;
     flex-direction: column;
-    border-top: .2em solid var(--red);
     color: var(--darkgrey);
     text-align: left;
     background: #fff;
-    border-radius: 10px;
+    border-radius: 15px;
     transition: all .1s ease-out;
     box-shadow: 0 0 0 1px rgba(39,44,49,0.03), 0 0 3px rgba(39,44,49,0.05), 0 5px 22px -10px rgba(39,44,49,0.12), 0 25px 30px -25px rgba(39,44,49,0.05);
+}
+
+#free-membership {
+    filter:grayscale(100%);
+    padding: 20px;
+    border: 2px solid var(--midgrey);
+    border-radius: 20px;
+}
+
+.current-plan {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-top: -50%;
+    margin-left: -50%;
+    display: inline-block;
+    background: var(--lightyellow);
+    padding: .2rem;
+    font-size: 1.28rem;
+}
+
+#yearly-membership {
+    border-top: .2em solid var(--red);
 }
 
 .checkout-plan-link:hover, .checkout-plan-link:focus {

@@ -8,20 +8,47 @@
 
     {{#if @member.paid}}
 
-        {{!-- Logged in, paying member: Redirect home --}}
-        <script>window.location = '{{@site.url}}';</script>
+        {{!-- Logged in, paying member: Redirect to account --}}
+        <script>window.location = '{{@site.url}}/account/';</script>
 
     {{else if @member}}
 
         {{!-- Logged in, not paying: Check out --}}
         <div class="checkout-form">
             <h1 class="checkout-title">Become a Supporting Member</h1>
-            <p>You're officially a member. Woohoo! You'll get new posts in your inbox, and you already have access to the member's only content. <strong>If you want to help fund my writing here, you'll get a copy of the book (when it's out) and some other perks, as well as a heartfelt thank you from me. <a style="display:inline-block" href="https://www.samkillermann.com" target="_blank">&lt;3 sK</a></strong></p>
+            <p class="checkout-description">If you want to help fund my writing here, you'll get a copy of the book (when it's out) and some other perks, as well as a heartfelt thank you from me. <a style="display:inline-block" href="https://www.samkillermann.com" target="_blank">&lt;3 sK</a></strong></p>
             <div class="checkout-box">
-                <div class="checkout-plan">
+
+                <div class="checkout-plan" id="free-membership">
+                   
+                    <span class="current-plan">Your Current Plan</span>
+                        
+                    <div class="current-plan-wrap">
+                        <header class="checkout-plan-header">
+                            <h3>Free Member</h3>
+                            <p>As a free member, you get special access to the blog and the private newsletter. But there are more perks available for supporting members (including a paperback copy of my book!).</p>           
+                        </header>
+                        <div class="checkout-plan-content">
+                            <ul>
+                                <li><span class="icon">💌</span> Get new posts delivered to your inbox</li>
+                                <li><span class="icon">💬</span> Read and write comments (once we have 100 members!)</li>
+                                <li><span class="icon">🔓</span> <del>Unrestricted access to all secret posts</del></li>
+                                <li><del><span class="icon">🐻</span> Pictures of my puppies (you're helping feed)</del></li>
+                                <li><span class="icon">📕</span> <del>Free paperback copy of the Problematic Activism book</del></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="checkout-plan" id="yearly-membership">
+                    {{!-- {#if @member.paid }}
+                        {{#if (eq .plan.interval "year") }}
+                            <span class="current-plan">Your Plan</span>
+                        {{/if}}
+                    {{/if}} --}}
                     <a class="checkout-plan-link" href="javascript:" data-members-plan="Yearly">
                     <header class="checkout-plan-header">
-                        <h3>Yearly</h3>
+                        <h3>Yearly Supporter</h3>
                         <p>Committing to supporting my work for a year means more to me than you could know, <em>and</em> you save about 20%. What a steal ;)</p>
                         <div class="checkout-price">
                             <div>
@@ -34,8 +61,9 @@
                     </header>
                     <div class="checkout-plan-content">
                         <ul>
-                            <li><span class="icon">🔓</span> Full access to all private posts</li>
-                            <li><span class="icon">💳</span> Simple, secure card payment</li>
+                            <li><span class="icon">💌</span> Get new posts delivered to your inbox</li>
+                            <li><span class="icon">💬</span> Read and write comments (once we have 100 members!)</li>
+                            <li><span class="icon">🔓</span> Unrestricted access to all secret posts</li>
                             <li><span class="icon">🐻</span> Pictures of my puppies (you're helping feed)</li>
                             <li><span class="icon">📕</span> <strong>100% free</strong> paperback copy of the book (when it's out)</li>
                         </ul>
@@ -43,10 +71,16 @@
                     </div>
                     </a>
                 </div>
-                <div class="checkout-plan">
+
+                <div class="checkout-plan" id="monthly-membership">
+                    {{!-- {#if @member.paid }}
+                        {{#if (eq .plan.interval "month") }}
+                            <span class="current-plan">Your Plan</span>
+                        {{/if}}
+                    {{/if}} --}}
                     <a class="checkout-plan-link" href="javascript:" data-members-plan="Monthly">
                     <header class="checkout-plan-header">
-                        <h3>Monthly</h3>
+                        <h3>Monthly Supporter</h3>
                         <p>Get unrestricted access to everything here, fund my work for as long (or short) as you feel happy about, and cancel (me?) whenever you want.</p>
                         <div class="checkout-price">
                             <div>
@@ -56,8 +90,9 @@
                     </header>
                     <div class="checkout-plan-content">
                         <ul>
-                            <li><span class="icon">🔓</span> Full access to all private posts</li>
-                            <li><span class="icon">💳</span> Simple, secure card payment</li>
+                            <li><span class="icon">💌</span> Get new posts delivered to your inbox</li>
+                            <li><span class="icon">💬</span> Read and write comments (once we have 100 members!)</li>
+                            <li><span class="icon">🔓</span> Full access to all secret posts</li>
                             <li><span class="icon">🐻</span> Pictures of my puppies (you're helping feed)</li>
                             <li><span class="icon">📕</span> Paperback copy of the book (<strong>you pay for shipping</strong>)</li>
                         </ul>
