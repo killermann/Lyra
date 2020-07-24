@@ -214,20 +214,20 @@ into the {body} of the default.hbs template --}}
             <img src="{{@member.avatar_image}}" />
         {{/if}}
     </div>
-    <h1 class="account-box-title">Thank you for being a supporting member!</h1>
+    <h2 class="text-l signup-title">Thank you for being a supporting member{{# if @member.firstname  }}, {{ @member.firstname  }}{{/if}}!</h2>
     <p>You're making my work here possible. I appreciate you dearly for that.</p>
 </div>
 
 {{else if @member}}
 
 {{!-- Logged in, not paying: Link to checkout --}}
-<div id="subscribe" class="supporting-member-signup">
+<div id="subscribe" class="signup-form supporting-member-signup">
     <div class="subscriber-avatar">
         {{#if @member.avatar_image}}
             <img src="{{@member.avatar_image}}" />
         {{/if}}
     </div>
-    <h1 class="account-box-title">Thank you for being a member!</h1>
+    <h2 class="text-l signup-title">I'm happy to have you as a member{{# if @member.firstname  }}, {{ @member.firstname  }}{{/if}}!</h2>
     <p>If you want to support my work here, supporting members (monthly or yearly subscriptions) receive extra perks, including a paperback copy of my book.</p>
     <div class="authbox-signup">
         <a class="button primary" href="{{@site.url}}/signup/">
