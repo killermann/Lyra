@@ -3071,7 +3071,9 @@ textarea:focus {
 }
 
 .current-plan {
-    margin-bottom: .5rem;
+    margin-bottom: .684rem;
+    margin-top:.5rem;
+    font-weight:900;
     line-height: 1;
     display: inline-block;
     padding: .6rem 1rem;
@@ -3115,7 +3117,7 @@ textarea:focus {
 .checkout-plan-header h3 {
     margin: 0 0 25px 0;
     font-size: 3.54rem;
-    line-height: 1.12em;
+    line-height: 1.1;
     font-weight: 700;
     letter-spacing: 0.12em;
     text-transform: uppercase;
