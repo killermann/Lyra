@@ -3027,7 +3027,7 @@ textarea:focus {
 }
 
 .checkout-form p {
-    margin: 0 auto 2rem;
+    margin: 0 auto 5vw;
     opacity: .75;
     font-size: 1.3em;
 }
