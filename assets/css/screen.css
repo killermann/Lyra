@@ -1042,16 +1042,15 @@ progress.reading-progress-bar[value]::-webkit-progress-value {
 }
 
 .post-full-title {
-    margin: 0 0 0.2em;
+    margin: 1rem 0 0;
 }
 
 .post-full-custom-excerpt {
-    margin: 20px 0 0;
-    font-family: Georgia, serif;
+    margin: 2rem 0 0;
     opacity: .75;
     font-size: 2.66rem;
     line-height: 1.4em;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 .date-divider {
@@ -1457,9 +1456,9 @@ h5, .text-xs {
 .post-full-byline {
     display: flex;
     justify-content: space-between;
-    margin: 35px 0 0;
-    padding-top: 15px;
-    border-top: 1px solid color(var(--lightgrey) l(+10%));
+    margin: 2rem 0 0;
+    padding-top: 2rem;
+    border-top: .15rem solid rgba(34,22,0,.1);
 }
 
 .post-full-byline-content {
@@ -1615,10 +1614,6 @@ h5, .text-xs {
     .author-avatar {
         width: 36px;
         height: 36px;
-    }
-
-    .post-full-byline {
-        margin-top: 20px;
     }
 
     .post-full-byline-meta h4 {
