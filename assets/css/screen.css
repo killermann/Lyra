@@ -1807,6 +1807,8 @@ h5, .text-xs {
 .read-next {
     background: var(--darkgrey);
     color: var(--lightyellow);
+    padding-top: 2vw;
+    padding-bottom: 2vw;
 }
 
 .read-next-feed {
@@ -1819,6 +1821,9 @@ h5, .text-xs {
 .read-next .post-card {
     padding-bottom: 0;
     border-bottom: none;
+    max-width: 760px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .read-next .post-card:after {
