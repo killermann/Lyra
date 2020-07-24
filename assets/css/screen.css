@@ -3013,13 +3013,13 @@ textarea:focus {
 
 .checkout-form {
     margin: 0 auto 10vw;
-    max-width: 700px;
+    max-width: 720px;
     width: 100%;
-    text-align: center;
 }
 
 .checkout-title {
-    margin: 0 auto 10px;
+    margin: 0 auto 2rem;
+    text-align: center;
     padding: 5vw 0 0;
     font-size: 4.71rem;
     font-weight: 600;
@@ -3027,10 +3027,9 @@ textarea:focus {
 }
 
 .checkout-form p {
-    margin: 0 auto 60px;
-    max-width: 500px;
+    margin: 0 auto 2rem;
+    line-height: 1.2;
     opacity: .75;
-    font-size: 1.3em;
 }
 
 .checkout-box {
@@ -3052,6 +3051,7 @@ textarea:focus {
     text-align: left;
     background: #fff;
     border-radius: 10px;
+    transition: all .1s ease-out;
     box-shadow: 0 0 0 1px rgba(39,44,49,0.03), 0 0 3px rgba(39,44,49,0.05), 0 5px 22px -10px rgba(39,44,49,0.12), 0 25px 30px -25px rgba(39,44,49,0.05);
 }
 
@@ -3059,6 +3059,7 @@ textarea:focus {
     background: var(--red);
     color: #fff !important;
     text-decoration: none !important;
+    box-shadow: 0 1rem 3rem 0 rgb(18, 33, 34, .15);
 }
 
 .checkout-plan + .checkout-plan {
