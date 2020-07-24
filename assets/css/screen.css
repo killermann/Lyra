@@ -3013,7 +3013,6 @@ textarea:focus {
 
 .checkout-form {
     margin: 0 auto 10vw;
-    max-width: 720px;
     width: 100%;
 }
 
