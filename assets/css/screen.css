@@ -2915,6 +2915,10 @@ textarea:focus {
     text-align: center;
 }
 
+#subscribe {
+    margin: calc(4rem + 4vw) auto;
+}
+
 .signup-title {
     margin: 0 0 0.1em;
     font-size: 4.2rem;
