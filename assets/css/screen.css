@@ -918,6 +918,7 @@ make sure this only happens on large viewports / desktop-ish devices.
 
     .post-card-large .post-card-content {
         flex: 0 1 33.333%;
+        min-width: 340px;
         justify-content: center;
     }
 
@@ -999,7 +1000,7 @@ progress.reading-progress-bar[value]::-webkit-progress-value {
 .post-full-header {
     position: relative;
     margin: 0 auto;
-    padding: 10vmin 170px 50px;
+    padding: 8vmin 170px 50px;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
 }
@@ -1783,7 +1784,6 @@ h5, .text-xs {
 
 .respond {
     margin: 0 auto;
-    max-width: 840px;
     display: flex;
     justify-content: space-between;
     align-items: center;
