@@ -3061,7 +3061,7 @@ textarea:focus {
 
 #free-membership {
     position: relative;
-    border: .12rem solid rgba(61, 56, 41, 0.4);
+    border: .2rem solid rgba(61, 56, 41, 0.4);
     border-radius: 20px;
 }
 
@@ -3073,17 +3073,15 @@ textarea:focus {
 }
 
 .current-plan {
-    position: absolute;
-    bottom: calc(100% + 1.2rem);
-    left: 50%;
     font-weight: bold;
-    margin-top: -50%;
+    margin-bottom: 1rem;
     line-height: 1;
     margin-bottom: -50%;
     display: inline-block;
-    background: var(--lightyellow);
-    padding: .2rem .4rem;
-    font-size: 1.28rem;
+    padding: .4rem .8rem;
+    font-size: 1.5rem;
+    border-radius: 2px;
+    background: var(--yellow);
 }
 
 #yearly-membership .checkout-plan-link {
