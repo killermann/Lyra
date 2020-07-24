@@ -3501,7 +3501,7 @@ form[data-members-form].error .message-error {
 
     body {
         background: color(var(--darkgrey) l(+2%));
-        color: rgba(255, 255, 255, 0.80);
+        color: rgba(255, 253, 246, 0.8);
     }
 
     h1,
