@@ -5,7 +5,10 @@ into the {body} of the default.hbs template --}}
 <header class="site-home-header" style="margin-bottom: 1.6vw; position: relative;">
     {{> header-background background=@site.cover_image}} {{!--Special header-image.hbs partial to generate the background image--}}
         <div class="inner">
-            {{> "site-nav"}}
+            <div class="home-header-nav">
+                <a class="book-home-link" href="https://www.problematicactivism.com" title="Home to Problematic Activism Book Site"><img src="{{asset "img/problematic-activism-paperback-sam-killermann-flat-dark-320w.jpg"}} title="Problematic Activism Paperback"</a>
+                 {{> "site-nav"}}
+            </div>
             <div class="site-header-content">
                 <h1 class="site-title">
                     {{#if @site.logo}}

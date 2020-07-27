@@ -36,6 +36,9 @@ production stylesheet in assets/built/screen.css
     html {
         font-size:50%;
     }
+    .mobileHide {
+        display: none;
+    }
 }
 
 body {
@@ -391,6 +394,18 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 
 .site-home-header .site-nav-logo {
     display: none;
+}
+
+.site-home-header .home-header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-home-header .book-home-link {
+    margin-left: -5vw;
+    display: block;
+    max-width: 200px;
 }
 
 .site-nav-content {
@@ -2941,7 +2956,9 @@ textarea:focus {
 
 .signin-link, .header-cta{
     text-transform: uppercase;
-    font-size: 2rem;
+    line-height: 36px;
+    padding: 0 1.2em;
+    font-size: 1.5rem;
 }
 
 @media (max-width: 600px) {
@@ -2952,11 +2969,6 @@ textarea:focus {
         margin: 15px 0 0 0;
         width: 100%;
     }
-
-    .signin-link, .header-cta{
-        font-size: 1.28rem;
-    }
-    
 }
 
 .site-signin {
@@ -2995,10 +3007,6 @@ textarea:focus {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.signin-box .button {
-    margin-left: 10px;
 }
 
 @media (max-width: 600px) {
@@ -3450,7 +3458,7 @@ form[data-members-form].error .message-error {
 }
 
 .header-cta {
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .post-card-header-tags {

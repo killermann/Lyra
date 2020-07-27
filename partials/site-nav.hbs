@@ -6,13 +6,13 @@
             {{else}}
                 <a class="site-nav-logo" href="{{@site.url}}">{{@site.title}}</a>
             {{/if}}
-            <div class="site-nav-content">
-                {{!-- {{#if @site.navigation}}
-                    {{navigation}}
-                {{/if}} --}}
+            <div class="site-nav-content mobileHide">
                 {{#is "post"}}
                     <span class="nav-post-title {{#unless @site.logo}}dash{{/unless}}">{{post.title}}</span>
                 {{/is}}
+                {{#if @site.navigation}}
+                    {{navigation}}
+                {{/if}}
             </div>
         </div>
     </div>
@@ -35,8 +35,11 @@
                 </ul>
             </div>
         {{else}}
-            <a class="signin-link" href="{{@site.url}}/signin/">Log in</a>
+            <a class="signin-link" href="{{@site.url}}/signin/">Log in</a> 
             <a class="button primary header-cta" href="{{@site.url}}/signup/">Subscribe</a>
         {{/if}}
+    </div>
+    <div class="site-nav-bottom">
+        
     </div>
 </nav>
