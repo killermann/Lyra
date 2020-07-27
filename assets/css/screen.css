@@ -910,10 +910,6 @@ make sure this only happens on large viewports / desktop-ish devices.
         border-top: 0;
     }
 
-    .post-card-large:hover {
-        border-bottom-color: color(var(--lightgrey) l(+10%));
-    }
-
     .post-card-large:not(.no-image) .post-card-header {
         margin-top: 0;
     }
