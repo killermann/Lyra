@@ -686,7 +686,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 
 .post-card {
     position: relative;
-    flex: 1 1 320px;
+    flex: 1 1 330px;
     display: flex;
     flex-direction: column;
     overflow: hidden;
