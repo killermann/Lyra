@@ -679,19 +679,19 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -20px;
+    margin: 0 -2vw;
     padding: 50px 0 0;
     background: var(--lightyellow);
 }
 
 .post-card {
     position: relative;
-    flex: 1 1 301px;
+    flex: 1 1 320px;
     display: flex;
     flex-direction: column;
     overflow: hidden;
     margin: 0 0 40px;
-    padding: 0 20px 40px;
+    padding: 0 2vw 40px;
     min-height: 220px;
     border-bottom: .15rem solid rgba(34, 22, 0, 0.1);
     background-size: cover;
@@ -701,7 +701,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     position: relative;
     display: block;
     overflow: hidden;
-    border-radius: 3px;
+    border-radius: 1rem;
 }
 
 .post-card-image {
@@ -1082,7 +1082,7 @@ progress.reading-progress-bar[value]::-webkit-progress-value {
     overflow: hidden;
     margin: 25px 0 50px;
     background: color(var(--lightgrey) l(+10%));
-    border-radius: 3px;
+    border-radius: 1rem;
 }
 
 .post-full-image img {
