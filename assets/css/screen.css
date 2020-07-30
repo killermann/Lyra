@@ -69,6 +69,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    position: relative;
 }
 
 .site-main {
@@ -283,8 +284,12 @@ body {
     left: 0; 
     display: block; 
     width: 100%; 
-    margin-bottom: -1vw; 
-    height: 1.2vw;
+    margin-bottom: -.9vw; 
+    height: 1vw;
+}
+
+#next {
+    color:#fff1d0;
 }
 
 
@@ -1093,7 +1098,6 @@ progress.reading-progress-bar[value]::-webkit-progress-value {
     min-height: 230px;
     font-family: Georgia, serif;
     font-size: 2.1rem;
-    background: var(--lightyellow);
 }
 
 @media (max-width: 1170px) {
@@ -3594,9 +3598,10 @@ form[data-members-form].error .message-error {
         background: var(--darkmode);
     }
 
-    .post-full-content {
-        background: var(--darkmode);
+    #next, #colophon {
+        color: var(--darkmode);
     }
+
 
     .post-full-title {
         color: rgba(255, 255, 255, 0.9);
