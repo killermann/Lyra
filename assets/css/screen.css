@@ -1159,11 +1159,6 @@ progress.reading-progress-bar[value]::-webkit-progress-value {
     box-shadow: var(--blue) 0 -1px 0 inset;
 }
 
-.post-full-content strong,
-.post-full-content em {
-    color: color(var(--darkgrey) l(-5%));
-}
-
 .post-full-content small {
     display: inline-block;
     line-height: 1.6em;
@@ -3651,14 +3646,6 @@ form[data-members-form].error .message-error {
     .post-full-content a {
         color: var(--lightyellow);
         box-shadow: inset 0 -1px 0 var(--lightyellow);
-    }
-
-    .post-full-content strong {
-        color: var(--lightyellow);
-    }
-
-    .post-full-content em {
-        color: var(--lightyellow);
     }
 
     .post-full-content code {
