@@ -288,7 +288,7 @@ body {
     height: 1vw;
 }
 
-#next {
+#next, #colophon {
     color:#fff1d0;
 }
 
@@ -3599,7 +3599,7 @@ form[data-members-form].error .message-error {
     }
 
     #next, #colophon {
-        color: var(--darkmode);
+        color: var(--darkmode) !important;
     }
 
 
