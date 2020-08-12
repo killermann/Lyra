@@ -1862,8 +1862,9 @@ h5, .text-xs {
     overflow: hidden;
     margin: 0 25px 50px;
     padding: 25px;
-    background: linear-gradient(color(var(--darkgrey) l(+3%)), color(var(--darkgrey) l(-3%)));
-    border-radius: 6px;
+    background: rgba(0,0,0,.15);
+    box-shadow: inset 0px 0px 10rem rgba(0,0,0,.6);
+    border-radius: 1rem;
 }
 
 .read-next-card a {
